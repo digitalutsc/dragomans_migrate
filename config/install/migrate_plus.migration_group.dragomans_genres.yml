@@ -18,13 +18,13 @@
 
 # The machine name of the group, by which it is referenced in individual
 # migrations.
-id: c11n
+id: dragomans_genres
 
 # A human-friendly label for the group.
-label: Custom migrations
+label: Custom Dragmons data migration
 
 # More information about the group.
-description: Custom data migrations.
+description: Custom Dragmons data migration.
 
 # Short description of the type of source, e.g. "Drupal 6" or "WordPress".
 source_type: CSV files
@@ -44,4 +44,4 @@ source_type: CSV files
 dependencies:
   enforced:
     module:
-      - c11n_migrate
+      - dragmoans_genres_migrate
