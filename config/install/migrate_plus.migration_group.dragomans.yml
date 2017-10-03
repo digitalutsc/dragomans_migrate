@@ -18,7 +18,7 @@
 
 # The machine name of the group, by which it is referenced in individual
 # migrations.
-id: dragomans_genres
+id: dragomans
 
 # A human-friendly label for the group.
 label: Custom Dragmons data migration
@@ -44,4 +44,4 @@ source_type: CSV files
 dependencies:
   enforced:
     module:
-      - dragmoans_genres_migrate
+      - dragmoans_migrate

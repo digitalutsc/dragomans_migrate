@@ -10,14 +10,14 @@
  *
  * Copies migration source files to the public:// directory.
  */
-function dragomans_genres_migrate_install() {
+function dragomans_migrate_install() {
 
   // Prepare destination directory.
   $dest_directory = 'public://import/genres';
   file_prepare_directory($dest_directory, FILE_CREATE_DIRECTORY);
 
   // Copy files to destination directory.
-  foreach(_c11n_migrate_source_files() as $filename => $file) {
+  foreach(_dragomans_migrate_source_files() as $filename => $file) {
     file_unmanaged_copy($file->uri, $dest_directory . '/' . $file->filename, FILE_EXISTS_REPLACE);
   }
 
@@ -28,7 +28,7 @@ function dragomans_genres_migrate_install() {
  *
  * Deletes migration source files created during installation.
  */
-function dragomans_genres_migrate_uninstall() {
+function dragomans_migrate_uninstall() {
   $dest_directory = 'public://import/genres';
   file_unmanaged_delete_recursive($dest_directory);
 }
@@ -39,8 +39,8 @@ function dragomans_genres_migrate_uninstall() {
  * @return array
  *   Import source files.
  */
-function _dragomans_genres_migrate_source_files() {
-  $dirname = drupal_get_path('module', 'dragomans_genres_migrate') . '/import/genres';
+function _dragomans_migrate_source_files() {
+  $dirname = drupal_get_path('module', 'dragomans_migrate') . '/import/genres';
   return file_scan_directory($dirname, '/.*/', [
     'recurse' => FALSE,
     'key' => 'filename',

@@ -9,14 +9,14 @@
 #
 # Usually the ID indicates what we are trying to migrate.
 # In our case, we are migrating nodes of type "program".
-id: program_data
+id: genres_data
 # Human-readable name of the migration for the UI.
-label: Academic programs and associated data.
+label: Dragomans genres.
 # Migration group.
 #
 # Migration groups allow us to put related migrations under one
 # umbrella so that we can execute or reference them together.
-migration_group: c11n
+migration_group: dragomans
 # Migration tags.
 #
 # Migration tags help us group migrations using tags. In our

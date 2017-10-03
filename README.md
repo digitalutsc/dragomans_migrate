@@ -1,6 +1,6 @@
-# Dragomans Genres Migrate module
+# Dragomans Migrate module
 
-The Dragomans Genres migrate module is based off the [Drupal 8 Migration Example](https://github.com/jigarius/drupal-migration-example) module by Jigar Mehta and explained in the following blog post
+The Dragomans Migrate module is based off the [Drupal 8 Migration Example](https://github.com/jigarius/drupal-migration-example) module by Jigar Mehta and explained in the following blog post
 
 https://evolvingweb.ca/blog/drupal-8-migration-migrating-basic-data-part-1
 

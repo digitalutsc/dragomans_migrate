@@ -1,6 +1,6 @@
 # Package info
-name: 'Dragomans: Genre Migrate'
-description: Module to migrate Dragomans Genres content type data..
+name: 'Dragomans Data Migration'
+description: Module to migrate Dragomans data.
 type: module
 core: 8.x
 package: Dragomans
