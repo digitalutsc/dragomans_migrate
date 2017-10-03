@@ -1,16 +1,17 @@
-uuid: ba3e249b-86eb-411d-9a57-d0f318008f27
 langcode: en
 status: true
 dependencies:
+  enforced:
+    module:
+      - dragomans
   module:
     - node
-    - taxonomy
-id: node.field_tags
-field_name: field_tags
+id: node.field_genre
+field_name: field_genre
 entity_type: node
 type: entity_reference
 settings:
-  target_type: taxonomy_term
+  target_type: node
 module: core
 locked: false
 cardinality: -1
