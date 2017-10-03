@@ -29,7 +29,7 @@ function dragomans_migrate_install() {
  * Deletes migration source files created during installation.
  */
 function dragomans_migrate_uninstall() {
-  $dest_directory = 'public://import/genres';
+  $dest_directory = 'public://import/genre';
   file_unmanaged_delete_recursive($dest_directory);
 }
 
@@ -40,7 +40,7 @@ function dragomans_migrate_uninstall() {
  *   Import source files.
  */
 function _dragomans_migrate_source_files() {
-  $dirname = drupal_get_path('module', 'dragomans_migrate') . '/import/genres';
+  $dirname = drupal_get_path('module', 'dragomans_migrate') . '/import/genre';
   return file_scan_directory($dirname, '/.*/', [
     'recurse' => FALSE,
     'key' => 'filename',
