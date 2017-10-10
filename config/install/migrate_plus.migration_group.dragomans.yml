@@ -4,17 +4,6 @@
 # module (which in turn is required by the migrate_tools module).
 # It can also be used to hold any configuration common to those migrations,
 # so it doesn't have to be duplicated in each one.
-#
-# In this case, I have named it "c11n" - the numeronym for "customization"
-# because that is the convention I usually follow for custom modules and
-# other site-specific customization. I would put all custom data migrations
-# in this module / migration group unless I had other reasons or modules
-# to put them in.
-#
-# NOTE: I didn't want to use the migration_plus module or module_groups
-# and wanted to do vanilla migrations using the least number of modules
-# or options. However, I couldn't find any other solution but to seek
-# help from the migrate_plus and migrate_tools modules as on date.
 
 # The machine name of the group, by which it is referenced in individual
 # migrations.
@@ -38,10 +27,10 @@ source_type: CSV files
 # shared_configuration:
 
 # As with the migration config (see migrate_plus.migration.node_program.yml),
-# we specify that this migration group depends on the c11n_migrate module.
-# Hence, when the c11n_migrate module is uninstalled, this migration group
+# we specify that this migration group depends on the dragomans_migrate module.
+# Hence, when the dragomans_migrate module is uninstalled, this migration group
 # will also be removed from the system.
 dependencies:
   enforced:
     module:
-      - dragmoans_migrate
+      - dragomans_migrate
