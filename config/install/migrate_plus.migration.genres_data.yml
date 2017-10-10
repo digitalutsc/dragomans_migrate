@@ -1,4 +1,4 @@
-# Migration file for creating "program" nodes from CSV.
+# Migration file for creating "genre" nodes from CSV.
 #
 # This file contains much of the information which we
 # used to specify in the "Migration" class in Drupal 7.
@@ -20,8 +20,8 @@ migration_group: dragomans
 # Migration tags.
 #
 # Migration tags help us group migrations using tags. In our
-# example, we tag all migrations with an "academic program"
-# tag. That way, we can run all academic-program-related migrations
+# example, we tag all migrations with an "dragomans genre"
+# tag. That way, we can run all dragomans-genre-related migrations
 # using one command.
 migration_tags:
   - node
@@ -79,10 +79,10 @@ destination:
   # the migration in to nodes. We can also store them as other entities
   # like taxonomy terms, etc. But in this case we want nodes.
   plugin: 'entity:node'
-  # We specify the default node type as "program" because
-  # we will only be importing nodes of type "program" in this
+  # We specify the default node type as "genre" because
+  # we will only be importing nodes of type "genre" in this
   # migration.
-  default_bundle: program
+  default_bundle: genre
 # Mapping.
 #
 # We can create simple mappings without any changes to
@@ -260,14 +260,14 @@ process:
 #
 # In our case, we need to import tags first so that we can associate them
 # to the academic programs.
-migration_dependencies:
-  optional:
-    - program_tags
-    - program_image
+#migration_dependencies:
+#  optional:
+#    - program_tags
+#    - program_image
 # We specify that this migration depends on the c11n_migrate module.
 # Based on this dependency, this migration will be removed when the
 # c11n_migrate module is uninstalled.
 dependencies:
   enforced:
     module:
-      - c11n_migrate
+      - dragomans_migrate
