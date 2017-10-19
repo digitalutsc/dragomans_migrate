@@ -22,3 +22,7 @@ drush m4 import_nations
 ### Migrate commands
 * The full list of migration drush command is described here: https://www.drupal.org/docs/8/upgrade/upgrade-using-drush
 
+## References
+* https://www.mtech-llc.com/blog/lucas-hedding/migrating-using-csv
+* https://evolvingweb.ca/blog/drupal-8-migration-migrating-basic-data-part-1
+
