@@ -9,4 +9,16 @@
 * You can review the migration info from here: http://localhost:8000/admin/structure/migrate
 
 ## Executing migration tasks
-* 
+### Import the Data
+```
+drush mi import_nations
+```
+
+### Rollback
+```
+drush m4 import_nations
+```
+
+### Migrate commands
+* The full list of migration drush command is described here: https://www.drupal.org/docs/8/upgrade/upgrade-using-drush
+
