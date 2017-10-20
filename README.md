@@ -25,4 +25,5 @@ drush mr import_nations
 ## References
 * https://www.mtech-llc.com/blog/lucas-hedding/migrating-using-csv
 * https://evolvingweb.ca/blog/drupal-8-migration-migrating-basic-data-part-1
-
+* https://www.mtech-llc.com/blog/ada-hernandez/entity-lookup-generate-migrate-process-plugins (inline entity lookup)
+* https://www.drupal.org/node/2825565 (multi value fields)
