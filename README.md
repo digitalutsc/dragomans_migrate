@@ -16,7 +16,7 @@ drush mi import_nations
 
 ### Rollback
 ```
-drush m4 import_nations
+drush mr import_nations
 ```
 
 ### Migrate commands
