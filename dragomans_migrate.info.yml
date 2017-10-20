@@ -2,7 +2,7 @@ name: dragomans_migrate
 type: module
 description: dragomans_migrate
 core: 8.x
-package: Migration
+package: dragomans
 dependencies:
   - migrate_plus
   - migrate_tools
