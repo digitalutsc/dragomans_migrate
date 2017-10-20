@@ -1,0 +1,10 @@
+name: dragomans_migrate
+type: module
+description: dragomans_migrate
+core: 8.x
+package: dragomans
+dependencies:
+  - migrate_plus
+  - migrate_tools
+  - migrate_source_csv
+

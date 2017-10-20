@@ -7,10 +7,10 @@
 
 # The machine name of the group, by which it is referenced in individual
 # migrations.
-id: dragomans
+id: dragomans_data
 
 # A human-friendly label for the group.
-label: Custom Dragmons data migration
+label: Dragomans Data
 
 # More information about the group.
 description: Custom Dragmons data migration.
