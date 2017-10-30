@@ -1,12 +1,11 @@
-uuid: fb8dcbbf-876b-44ef-bf05-d6bbb2db1ff1
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - dragomans_migrate
-id: import_event_types
-label: 'Import EventTypes'
+id: import_agencies
+label: 'Import Agencies'
 migration_group: dragomans_data
 
 class: null
@@ -16,15 +15,15 @@ migration_tags:
   - CSV
 source:
   plugin: csv
-  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/event_types.csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/agencies.csv
   header_row_count: 1
   keys:
     - term
   column_names:
     -
-      term: term
+      term: Term
     -
-      notes: notes
+      notes: Notes
   # We can assign hard-coded values to certain properties using constants.
   constants:
     bool_0: 0
@@ -35,7 +34,7 @@ source:
 process:
   type:
     plugin: default_value
-    default_value: event_type
+    default_value: agency
   title: term
   field_notes: notes
   uid: constants/uid_root
