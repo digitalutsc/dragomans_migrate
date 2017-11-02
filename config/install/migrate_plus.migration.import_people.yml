@@ -16,7 +16,7 @@ migration_tags:
   - CSV
 source:
   plugin: csv
-  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/people.csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/people2.csv
   header_row_count: 1
   keys:
     - id
@@ -31,6 +31,8 @@ source:
       family_name: family_name
     -
       nation: nation
+    -
+      events: events
   # We can assign hard-coded values to certain properties using constants.
   constants:
     bool_0: 0
@@ -45,9 +47,17 @@ process:
   title: titile
   field_given_name: field_given_name
   field_family_name: field_family_name
-  field_nation:
-    plugin: entity_generate
-    source: nation
+  field_event:
+  -
+    plugin: explode
+    delimiter: ', '
+    source: events
+  -
+    plugin: entity_lookup
+    value_key: field_import_event_id
+    entity_type: node
+    bundle: event
+    ignore_case: true
   uid: constants/uid_root
 
 destination:

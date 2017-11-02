@@ -1,0 +1,10 @@
+person_id, event_id, person_name, event_title, event_type, description, start_date, start_date_text, start_date_type, end_date, end_date_text, end_date_type, place, agency, position, notes
+Person_001,Event0001,"Agapito, Gabriel","Agapito, Gabriel Birth",Birth,Birth,,,,,,,Cyprus,,,,
+Person_001,Event0002,"Agapito, Gabriel","Agapito, Gabriel Raise",Raise,"1641: gdl, annual salary of 60 ducats + 20 ducats & 6 zecchini of raise, 2 outfits",1641-01-01,1641,Gregorian,,,,,,,,
+Person_001,Event0003,"Agapito, Gabriel","Agapito, Gabriel citizenship",citizenship,1643: 'veneziano',1643-01-01,1643,Gregorian,,,,,,,,
+Person_003,Event0004,"Aggiondrite, Andrea","Aggiondrite, Andrea Birth",Birth,Birth,,,,,,,Modon,,,,
+Person_003,Event0005,"Aggiondrite, Andrea","Aggiondrite, Andrea employment end",employment end,,1553-01-01,1553,,,,,,,,,
+Person_003,Event0006,"Aggiondrite, Andrea","Aggiondrite, Andrea employment end",employment end,,1553-01-01,1553,,,,,,,,,
+Person_003,Event0007,"Aggiondrite, Andrea","Aggiondrite, Andrea Death",Death,Died; son was elected in his place by Prov.r della Cefalonia,,,,,,,,,,,
+Person_004,Event0008,"Aggiondrite, Zuanne","Aggiondrite, Zuanne Birth",Birth,Birth,,,,,,,Modon,,,,
+Person_004,Event0009,"Aggiondrite, Zuanne","Aggiondrite, Zuanne election",election,"Modoneo, was elected by Prov.r della Cefalonia as interprete della lingua greca in that island instead of mr Andrea suo padre mancato di vita. VS examine case and respond that supplicant doesn't seem to have v thorough command of lng, therefore should be given t job, but 'che egli non debba impedirsi in altri che nella sola semplice interpretatione riportandosi'",,,,,,,,,,,
