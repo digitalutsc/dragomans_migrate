@@ -24,7 +24,7 @@ source:
     -
       id: id
     -
-      title: title
+      titile: titile
     -
       given_name: given_name
     -
@@ -33,9 +33,6 @@ source:
       nation: nation
     -
       events: events
-    -
-      p2p: p2p
-
   # We can assign hard-coded values to certain properties using constants.
   constants:
     bool_0: 0
@@ -47,20 +44,20 @@ process:
   type:
     plugin: default_value
     default_value: person
-  title: title
-  field_person_id: id
-  field_namepart: given_name
-  field_p2p_role_relation:
-    -
-      plugin: explode
-      delimiter: ', '
-      source: p2p
-    -
-      plugin: entity_lookup
-      value_key: title
-      entity_type: node
-      bundle: persontopersonrelation
-      ignore_case: true
+  title: titile
+  field_given_name: field_given_name
+  field_family_name: field_family_name
+  field_event:
+  -
+    plugin: explode
+    delimiter: ', '
+    source: events
+  -
+    plugin: entity_lookup
+    value_key: field_import_event_id
+    entity_type: node
+    bundle: event
+    ignore_case: true
   uid: constants/uid_root
 
 destination:

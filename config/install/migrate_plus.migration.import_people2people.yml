@@ -1,12 +1,12 @@
-uuid: bdce1995-f3ba-4805-b71f-63c17c046258
+uuid: dbe465ab-0d64-41a5-946f-884aab32a5c6
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - dragomans_migrate
-id: import_people
-label: 'Import People'
+id: import_people2people
+label: 'Import People2People'
 migration_group: dragomans_data
 
 class: null
@@ -16,26 +16,17 @@ migration_tags:
   - CSV
 source:
   plugin: csv
-  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/people2.csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/people2people.csv
   header_row_count: 1
   keys:
-    - id
+    - p2p_id
   column_names:
     -
-      id: id
+      p2p_id: p2p_id
     -
-      title: title
+      role: role
     -
-      given_name: given_name
-    -
-      family_name: family_name
-    -
-      nation: nation
-    -
-      events: events
-    -
-      p2p: p2p
-
+      person: person
   # We can assign hard-coded values to certain properties using constants.
   constants:
     bool_0: 0
@@ -46,20 +37,21 @@ source:
 process:
   type:
     plugin: default_value
-    default_value: person
-  title: title
-  field_person_id: id
-  field_namepart: given_name
-  field_p2p_role_relation:
+    default_value: persontopersonrelation
+  title: p2p_id
+  field_role:
+    plugin: entity_generate
+    source: role
+  field_person:
     -
       plugin: explode
       delimiter: ', '
-      source: p2p
+      source: person
     -
       plugin: entity_lookup
-      value_key: title
+      value_key: field_person_id
       entity_type: node
-      bundle: persontopersonrelation
+      bundle: person
       ignore_case: true
   uid: constants/uid_root
 
