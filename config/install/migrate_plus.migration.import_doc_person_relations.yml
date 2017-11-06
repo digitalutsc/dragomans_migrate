@@ -1,0 +1,57 @@
+uuid: f0e01eed-1143-45db-af58-646f2515d1a9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - dragomans_migrate
+id: import__doc_person_relations
+label: 'Import Person Relations'
+migration_group: dragomans_data
+
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - CSV
+source:
+  plugin: csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/doc_person_relations.csv
+  header_row_count: 1
+  keys:
+    - document_person_relation_id
+  column_names:
+    -
+      document_person_relation_id: document_person_relation_id
+    -
+      role: role
+    -
+      related_person: related_person
+  # We can assign hard-coded values to certain properties using constants.
+  constants:
+    bool_0: 0
+    bool_1: 1
+    uid_root: 1
+    restricted_html: restricted_html
+
+process:
+  type:
+    plugin: default_value
+    default_value: documentpersonrolerelation
+  title: document_person_relation_id
+  field_document_person_role: role
+  field_person:
+    plugin: entity_lookup
+    value_key: field_person_id
+    entity_type: node
+    bundle: person
+    ignore_case: true
+    source: related_person
+  uid: constants/uid_root
+
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }
+
