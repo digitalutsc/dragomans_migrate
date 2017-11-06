@@ -1,0 +1,55 @@
+uuid: d5ac2e6e-e2dd-45d0-9468-6eced6aeb5a1
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - dragomans_migrate
+id: import_genre_relations
+label: 'Import Genre Relations'
+migration_group: dragomans_data
+
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - CSV
+source:
+  plugin: csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/genre_relations.csv
+  header_row_count: 1
+  keys:
+    - genre_relation_id
+  column_names:
+    - genre_relation_id: genre_relation_id
+    -
+      genre: genre
+    -
+      mediation_form: mediation_form
+    -
+      notes: Notes
+  # We can assign hard-coded values to certain properties using constants.
+  constants:
+    bool_0: 0
+    bool_1: 1
+    uid_root: 1
+    restricted_html: restricted_html
+
+process:
+  type:
+    plugin: default_value
+    default_value: documentgenrerelation
+  title: genre_relation_id
+  field_genre:
+      plugin: entity_generate
+      source: genre
+  field_form_of_mediation: mediation_form
+  field_notes: notes
+  uid: constants/uid_root
+
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }
+
