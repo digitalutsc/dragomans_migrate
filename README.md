@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dragomans Migrate is a Drupal 8 module that is used to migrate CSV spreadsheet metadata from the Dragomans Renaissance Research project into Drupal nodes. Please see the [wiki](wiki) for more information.
+Dragomans Migrate is a Drupal 8 module that is used to migrate CSV spreadsheet metadata from the Dragomans Renaissance Research project into Drupal nodes. Please see the [wiki](https://github.com/digitalutsc/dragomans_migrate/wiki) for more information.
 
 ## Installation
 * Install the module dependencies: [migrate_plus](https://www.drupal.org/project/migrate_plus), [migrate_tools](https://www.drupal.org/project/migrate_tools) and [migrate_source_csv](https://www.drupal.org/project/migrate_source_csv).
