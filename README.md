@@ -14,6 +14,11 @@
 drush mi import_nations
 ```
 
+### Update Data
+```
+drush mi import_nations --update
+```
+
 ### Rollback
 ```
 drush mr import_nations
