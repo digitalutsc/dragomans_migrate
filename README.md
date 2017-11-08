@@ -21,6 +21,11 @@ Dragomans Migrate is a Drupal 8 module that is used to migrate CSV spreadsheet m
 drush mi import_nations
 ```
 
+### Update Data
+```
+drush mi import_nations --update
+```
+
 ### Rollback
 
 ```
