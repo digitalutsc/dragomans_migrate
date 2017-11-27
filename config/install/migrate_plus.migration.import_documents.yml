@@ -32,8 +32,21 @@ source:
     -
       transcription: transcription
     -
-      transliteration: transliteration
-
+      date: date
+    -
+      date_text: date_text
+    -
+      date_type: date_type
+    -
+      places: places
+    -
+      topics: topics
+    -
+      genres: genres
+    -
+      agencies: agencies
+    -
+      related_objects: related_objects
 
   # We can assign hard-coded values to certain properties using constants.
   constants:
@@ -55,6 +68,30 @@ process:
       plugin: explode
       delimiter: ', '
       source: languages
+    -
+      plugin: entity_generate
+  field_date: date
+  field_production_date: date_text
+  field_production_date_type: date_type
+  field_subject_places:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: places
+    -
+      plugin: entity_generate
+  field_topic:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: topics
+    -
+      plugin: entity_generate
+  field_subject_agencies:
+    -
+      plugin: explode
+      delimiter: '; '
+      source: agencies
     -
       plugin: entity_generate
   uid: constants/uid_root
