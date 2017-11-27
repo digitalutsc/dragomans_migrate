@@ -1,0 +1,2 @@
+person_id,position_relation_id,position,start_date,start_date_text,start_date_type,end_date,end_date_text,end_date_type,agency,agency_locatin,notes
+Person_014,Position011,Bailo,1767-12-12,1767,Gregorian,1771-01-01,1771,Gregorian,,,*Bailo.

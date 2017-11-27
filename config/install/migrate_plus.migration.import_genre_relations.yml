@@ -21,7 +21,8 @@ source:
   keys:
     - genre_relation_id
   column_names:
-    - genre_relation_id: genre_relation_id
+    -
+      genre_relation_id: genre_relation_id
     -
       genre: genre
     -
