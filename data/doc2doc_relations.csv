@@ -1,0 +1,4 @@
+source_doc_id,doc2doc_id,target_doc_id,role,reported_date,reported_date_text,reported_date_type,glossed_date,glossed_date_type,cataloguer_date
+doc_italian_001,relateddocdate001,,,1613-03-08,3/8/1613,gregorian,ca. 01/15/1022,hijri,
+doc_italian_002,relateddocdate002,,,1613-03-08,ca. 03/08/1613,gregorian,ca. 01/05/1022,hijri,
+doc_italian_003,relateddocdate003,,,1612-05-15,ca. 05/15/1612,gregorian,c. 02/25/1021,hijri,

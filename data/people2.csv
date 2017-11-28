@@ -1,6 +1,11 @@
-id,title,given_name,family_name,nation,events,p2p
-Person_001,Nat,Nat,Kanthan,1026, "Event0001", "p2p_0001, p2p_0002"
-Person_002,Nila,Nila,Kanthan,1025, "Event0004, Event0005, Event0006, Event0007", "p2p_0002, p2p_001"
-Person_003,Priya,Nila,Kanthan,1025, "Event0008, Event0009", "p2p_0003"
-
+person_id,title,given_name,family_name,name_parts,alt_family_names,alt_given_names,alt_name_parts,professions,gender,languages,positions,events,related_people,notes
+Person_001,"Agapito, Gabriel",Agapito,Gabriel,,Agapito;Aggapito;Agappito,Gabriele,,Dragoman,Male,Cipriota;Greek;,Position001,"Event0001, Event0002, Event0003",Person_002,
+Person_002,Agapito,,,,,,,Medico,,,,,,
+Person_003,"Aggiondrite, Andrea",Aggiondrite,Andrea,,Agiondrite;Agiondriti;Aggiondriti;Agiondritti;Agiondritte;Aggiondritti,,,Dragoman,Male,Greca;Greek;,Position002,"Event0004, Event0005, Event0006, Event0007",Person_004,
+Person_004,"Aggiondrite, Zuanne",Aggiondrite,Zuanne,,Agiondrite;Agiondriti;Aggiondriti;Agiondritti;Agiondritte;Aggiondritti,Zuanne;Giovanni;Gio:;Zuane;Zuan;Giovan;Zovan;Gian;Gianni,,Dragoman,Male,Greca;Greek;,Position003,"Event0008, Event0009",Person_003,
+Person_005,"Alberti, Gesparo",Alberti,Gasparo,,,,,,Male,,,"Event0008, Event0009",,
+Person_006,"Alberti, Girolamo",Alberti,Girolamo,,,,,Dragoman,Male,Veneziana;Turkish;,Position004,"Event0010, Event0011, Event0012, Event0013, Event0014, Event0015, Event0016, Event0017","Person_005, Person_007",#38170
+Person_007,"Alberto, Marina",Marina,Alberto,,,,,,Female,,,"Event0010, Event0011, Event0012, Event0013, Event0014, Event0015, Event0016, Event0017",,
+Person_008,"Alessandri, Vincenzo degli",Alessandri,Vincenzo degli,dei,Degli Alessandri;Alessandri,Vincenzo;Vicenzo,delli,Dragoman,Male,Veneziana;Turkish;,Position005,"Event0018, Event0019, Event0020, Event0021, Event0022, Event0023, Event0024, Event0025",,Berengo 1960: 174; von Palombini 1968: 93-100; Lucchetta 1989: 23-24
+Person_009,"Ambrosio, Filippo de",Ambrosio,Filippo de,di,De Ambrosio;De Ambroggio;De Ambrogio;Ambrosio;Ambrogio;Ambroggio,Filippo;Filipo,de';da,Dragoman,Male,Cipriota;Turkish;,Position006,"Event0026, Event0027",Person_095,same as Filippo Emanuel?
 
