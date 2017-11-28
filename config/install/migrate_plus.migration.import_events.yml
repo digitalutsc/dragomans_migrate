@@ -77,7 +77,7 @@ process:
     ignore_case: true
     uid: constants/uid_root
   field_notes: notes
-  field_import_event_id: event_id
+  field_import_id: event_id
   field_start_date_iso: start_date
   field_start_date_text: start_date_text
   field_start_date_type: start_date_type

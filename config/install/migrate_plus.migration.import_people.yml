@@ -16,13 +16,13 @@ migration_tags:
   - CSV
 source:
   plugin: csv
-  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/people2.csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/people.csv
   header_row_count: 1
   keys:
-    - id
+    - person_id
   column_names:
     -
-      id: id
+      person_id: person_id
     -
       title: title
     -
@@ -30,11 +30,29 @@ source:
     -
       family_name: family_name
     -
-      nation: nation
+      name_parts: name_parts
+    -
+      alt_family_names: alt_family_names
+    -
+      alt_given_names: alt_given_names
+    -
+      alt_name_parts: alt_name_parts
+    -
+      professions: professions
+    -
+      gender: gender
+    -
+      nations: nations
+    -
+      languages: languages
+    -
+      positions: positions
     -
       events: events
     -
-      p2p: p2p
+      related_people: related_people
+    -
+      notes: notes
 
   # We can assign hard-coded values to certain properties using constants.
   constants:
@@ -48,19 +66,69 @@ process:
     plugin: default_value
     default_value: person
   title: title
-  field_person_id: id
-  field_namepart: given_name
-  field_p2p_role_relation:
+  field_import_id: person_id
+  field_family_name: family_name
+  field_given_name: given_name
+  field_namepart: name_parts
+  field_alternate_family_name:
+    plugin: explode
+    delimiter: ';'
+    source: alt_family_names
+  field_alternate_given_name:
+    plugin: explode
+    delimiter: ';'
+    source: alt_given_names
+  field_alternate_namepart:
+    plugin: explode
+    delimiter: ';'
+    source: alt_name_parts
+  field_profession:
+    -
+      plugin: explode
+      delimiter: ';'
+      source: professions
+    -
+      plugin: entity_generate
+  field_gender: gender
+  field_nation:
+    -
+      plugin: explode
+      delimiter: ';'
+      source: nations
+    -
+      plugin: entity_generate
+  field_language:
+    -
+      plugin: explode
+      delimiter: ';'
+      source: languages
+    -
+      plugin: entity_generate
+  field_associated_position:
     -
       plugin: explode
       delimiter: ', '
-      source: p2p
+      source: positions
     -
       plugin: entity_lookup
       value_key: title
       entity_type: node
-      bundle: persontopersonrelation
+      bundle: personpositionrelation
       ignore_case: true
+  field_event:
+    -
+      plugin: explode
+      delimiter: ', '
+      source: events
+    -
+      plugin: entity_lookup
+      value_key: field_import_id
+      entity_type: node
+      bundle: event
+      ignore_case: true
+  field_notes: notes
+
+
   uid: constants/uid_root
 
 destination:

@@ -1,2 +1,380 @@
 person_id,position_relation_id,position,start_date,start_date_text,start_date_type,end_date,end_date_text,end_date_type,agency,agency_locatin,notes
-Person_014,Position011,Bailo,1767-11-12,1767,Gregorian,1771-01-01,1771,Gregorian,,,*Bailo.
+Person_001,Position001,Gdl,,,,,,,,,
+Person_003,Position002,Interprete della lingua Greca in Cefalonia,,,,,,,,,
+Person_004,Position003,Interprete della lingua Greca in Cefalonia,,,,,,,,,
+Person_006,Position004,Gdl,,,,,,,,,
+Person_008,Position005,Gdl,,,,,,,,,
+Person_009,Position006,Interprete della lingua et scrittura turcha,,,,,,,,,
+Person_010,Position007,Bailo,1764-01-01,1764,Gregorian,1/1/1768,1768,Gregorian,,,Bailo.*
+Person_011,Position008,Ambasciatore,1510-01-01,1510,Gregorian,,,,,,Ambasciatore per ottenere aiuti. Ammalatosi nel viaggio di ritorno morì la notte stessa del suo arrivo a Venezia.
+Person_012,Position009,Inviato,1399-01-01,1399,Gregorian,,,,,,"Inviato per negoziare pace e amicizia *Inviati, il primo come capitano generale del Golfo, e gli altri come provveditori dell’armata in Golfo, per negoziare pace e amicizia."
+Person_013,Position010,Interprete della lingua Turca,,,,,,,,,
+Person_014,Position011,Bailo,1767-01-01,1767,Gregorian,1/1/1771,1771,Gregorian,,,*Bailo.
+Person_015,Position012,Inviato,1472-01-01,1472,Gregorian,,,,,,"*Inviato, come segretario."
+Person_016,Position013,Gdl,1609-01-01,1609,Gregorian,1/1/1609,1609,Gregorian,,,
+Person_017,Position014,Ambasciatore,1540-01-01,1540,Gregorian,,,,,,Ambasciatore per trattare la pace Fu costretto alle massime concessioni cui la Repubblica era disposta a causa del tradimento di alcuni cittadini veneziani.
+Person_018,Position015,Ambasciatore,1573-01-01,1573,Gregorian,1/1/1574,1574,Gregorian,,,Ambasciatore per la ratifica della pace.
+Person_019,Position016,Bailo,1459-01-01,1459,Gregorian,1/1/1465,1574 Approximate,Gregorian,,,Bailo
+Person_020,Position017,Gdl,,,,,,,,,
+Person_021,Position018,Dragomano,,,,,,,,,
+Person_022,Position019,Gdl,,,,,,,,,
+Person_023,Position020,Bailo,1556-01-01,1556,Gregorian,1/1/1558,1558,Gregorian,,,*Bailo.
+Person_024,Position021,Bailo,1563-01-01,1563,Gregorian,1/1/1564,1564,Gregorian,,,*Bailo.
+Person_025,Position022,Bailo,1577-01-01,1577,Gregorian,1/1/1579,1579,Gregorian,,,Morì a Pera il 8 November 1579; fu sostituito dal segretario Gabriele Cavazza.
+Person_026,Position023,Bailo,1461-01-01,1461,Gregorian,1/1/1465,1465 Approximate,Gregorian,,,Posto in prigione da Mehmed II.*Bailo.
+Person_027,Position024,Bailo,1568-01-01,1568,Gregorian,1/1/1574,1574,Gregorian,,,Scoppiata la guerra di Cipro venne posto in prigione dove rimase fino al 1573.*Bailo.
+Person_028,Position025,Bailo,1681-01-01,1681,Gregorian,1/1/1684,1684,Gregorian,,,"Venne privato della carica e portato a Venezia in catene perché aveva sborsato un’ingente somma ai Turchi per sistemare una questione; venne assolto, poiché venne riconosciuto lo stato di necessità.*Bailo. "
+Person_029,Position026,Ambasciatore,1382-01-01,1382,Gregorian,,,,,,"Incaricato di trattare, o di persona o tramite loro rappresentanti, con Murad I la questione dell’isola di Tenedo. *Ambasciatori. Zorzi come capitano generale da terra in partibus Thenedi , Miani come capitano in Golfo, mentre Dandolo e Bembo come provveditori dell’armata, furono incaricati di trattare, o di persona o tramite loro rappresentanti, con Murad I la questione dell’isola di Tenedo."
+Person_030,Position027,Bailo,1516-01-01,1516,Gregorian,1/1/1519,1519,Gregorian,,,*Bailo.
+Person_031,Position028,Bailo,1483-01-01,1483,Gregorian,1/1/1486,1486,Gregorian,,,approximate*Bailo.
+Person_032,Position029,Bailo,1530-01-01,1530,Gregorian,1/1/1531,1531,Gregorian,,,Rifiuta nel March 1531 e rimpatria nel dicembre di quell’anno.*Bailo.
+Person_033,Position030,Bailo,1585-01-01,1585,Gregorian,1/1/1587,1587,Gregorian,,,*Bailo.
+Person_033,Position031,Inviato,1591-01-01,1591,Gregorian,1592-01-01,1592,Gregorian,,Istanbul,"Titolo di nobile Inviato con il titolo di nobile, sostituì e rinviò a Venezia in catene il bailo Lippomano, accusato di tradimento."
+Person_034,Position032,Interprete della lingua Serviana,,,,,,,,,
+Person_035,Position033,Ambasciatore,1467-01-01,1467,Gregorian,,,,,,Ambasciatore per trattare la pace La sua missione non ebbe alcun risultato
+Person_036,Position034,Ambasciatore,1483-01-01,1483,Gregorian,,,,,,"Ambasciatore, per far desistere il sultano da un accordo con il re di Napoli."
+Person_037,Position035,Dragomano,,,,,,,,,
+Person_038,Position036,Bailo,1604-01-01,1604,Gregorian,1/1/1609,1609,Gregorian,,,*Bailo.
+Person_039,Position037,Dragomano,,,,,,,,,
+Person_040,Position038,Dragomano,,,,,,,,,
+Person_041,Position039,Interprete a Candia,,,,,,,,,
+Person_050,Position040,Dragomano grande,,,,,,,,,
+Person_055,Position041,Gdl,,,,,,,,,
+Person_055,Position042,Dragomano,,,,,,,,,
+Person_055,Position043,Conte di Fontane,,,,,,,,,
+Person_058,Position044,Ambasciatore,1368-01-01,,,,,,,,"Ambasciatore al basileus, ebbe anche l’incarico di incontrare Murad I per cercare di ottenere Üsküdar. *Ambasciatore al basileus, ebbe anche l’incarico di incontrare Murad I per cercare di ottenere Üsküdar."
+Person_059,Position045,Bailo,1524-01-01,,,1/1/1526,,,,,*Bailo.
+Person_060,Position046,Bailo,1564-01-01,,,1/1/1566,,,,,*Bailo.
+Person_061,Position047,Interprete della lingua Schiava,,,,,,,,,
+Person_062,Position048,Interprete della lingua Schiava,,,,,,,,,
+Person_065,Position049,Gdl,,,,,,,,,
+Person_065,Position050,Dragomano,,,,,,,,,
+Person_066,Position051,Dragomano,,,,,,,,,
+Person_067,Position052,Gdl,,,,,,,,,
+Person_067,Position053,Dragomano,,,,,,,,,
+Person_068,Position054,Gdl,,,,,,,,,
+Person_068,Position055,Dragomano,,,,,,,,,
+Person_071,Position056,Dragomano,,,,,,,,,
+Person_072,Position057,Gdl,,,,,,,,,
+Person_073,Position058,Gdl,,,,,,,,,
+Person_073,Position059,Dragomano,,,,,,,,,
+Person_074,Position060,Gdl,,,,,,,,,
+Person_081,Position061,Dragomano della lingua Turca,,,,,,,,,
+Person_083,Position062,Ambasciatore,1470-01-01,,,,,,,,Ambasciatore per trattare la pace Non ottennero nulla; Cappello morì di febbre a Costantinopoli.*Ambasciatori per trattare la pace; non ottennero nulla. Cappello morì di febbre a Costantinopoli.
+Person_084,Position063,Inviato,1399-01-01,,,,,,,,"Inviato per negoziare pace e amicizia *Inviati, il primo come capitano generale del Golfo, e gli altri come provveditori dell’armata in Golfo, per negoziare pace e amicizia."
+Person_085,Position064,Bailo,1629-01-01,,,1/1/1633,,,,,*Bailo.
+Person_085,Position065,Ambasciatore,1652-01-01,,,1654-01-01,1/1/1654,,,Istanbul,"Ambasciatore per trattare la pace. Venne trattenuto ad Adrianopoli. Fin dal 1654 fu sostituito dal segretario, poi cancellier grande, Giovanni Battista Ballarin († 29 settembre 1666) e quindi dai segretari Giovanni Battista Padavin († 1667), Girolamo Giavarina (†1667), Giovanni Cappello e Giovanni Pietro Cavalli. Morì in Turchia il 4 novembre 1662."
+Person_086,Position066,Inviato,1683-01-01,,,1/1/1684,,,,,"*Inviato, come segretario del Consiglio di Dieci."
+Person_087,Position067,Bailo,1595-01-01,,,1/1/1600,,,,,*Bailo.
+Person_088,Position068,Bailo,1458-01-01,,,1/1/1459,,,,,approximate*Bailo.
+Person_089,Position069,Inviato,1401-01-01,,,,,,,,Inviato per negoziare pace e amicizia. *Inviati per negoziare pace e amicizia.
+Person_090,Position070,Gdl,,,,,,,,,
+Person_090,Position071,Dragomano,,,,,,,,,
+Person_092,Position072,Interprete della lingua Greca et Italiana nella Cefalonia,,,,,,,,,
+Person_093,Position073,Bailo,1558-01-01,,,1/1/1560,,,,,*Bailo.
+Person_093,Position074,Ambasciatore,1567-01-01,,,,,,,Istanbul,Ambasciatore per congratularsi con Selim II per la sua ascesa al trono.
+Person_094,Position075,Dragomano,,,,,,,,,
+Person_098,Position076,Interprete della lingua Greca et turchesca,,,,,,,,,
+Person_098,Position077,Dragomano publico,,,,,,,,,
+Person_099,Position078,Bailo,1679-01-01,,,1/1/1681,,,,,*Bailo.
+Person_100,Position079,Ambasciatore,1470-01-01,,,,,,,,Ambasciatore per trattare la pace Non ottennero nulla.*Ambasciatori per trattare la pace; non ottennero nulla. Cappello morì di febbre a Costantinopoli.
+Person_101,Position080,Ambasciatore,1480-01-01,,,,,,,,*Ambasciatore.
+Person_102,Position081,Interprete di Monovasia,,,,,,,,,
+Person_103,Position082,Bailo,1545-01-01,,,1/1/1547,,,,,*Bailo.
+Person_104,Position083,Bailo,1636-01-01,,,1/1/1640,,,,,Venne posto in prigione in seguito alla presa di varie fuste barbaresche; venne liberato quando il suo successore pagò una forte somma ai Turchi.*Bailo. Venne posto in prigione in seguito alla presa di varie fuste barbaresche; venne liberato quando il suo successore pagò una forte somma ai Turchi.
+Person_105,Position084,Ambasciatore,1517-01-01,,,,,,,,"Ambasciatore a Selim I, che si trovava allora in Egitto, per congratularsi per le sue vittorie. *Ambasciatori a Selim I, che si trovava allora in Egitto, per congratularsi per le sue vittorie."
+Person_106,Position085,Bailo,1602-01-01,,,1/1/1605,,,,,*Bailo.
+Person_106,Position086,Ambasciatore,1618-01-01,,,1619-01-01,1/1/1619,,,Istanbul,"Ambasciatore per congratularsi con Mustafa I, poi Osman II, per la sua ascesa al trono. *Ambasciatore per congratularsi con Mustafa I, poi Osman II, per la sua ascesa al trono."
+Person_107,Position087,Ambasciatore,1360-01-01,,,,,,,,Ambasciatore a Murad I per la presa di Adrianopoli. *Ambasciatori a Murad I per la presa di Adrianopoli.
+Person_108,Position088,Bailo,1580-01-01,,,1/1/1582,,,,,*Bailo.
+Person_109,Position089,Bailo,1608-01-01,,,1/1/1612,,,,,*Bailo.
+Person_109,Position090,Ambasciatore,1624-01-01,,,1625-01-01,1/1/1625,,,Istanbul,"Eletto per congratularsi con Mustafa I per il suo ritornato sul trono, poi con Murad IV per la sua ascesa al trono. *Ambasciatore. Eletto per congratularsi con Mustafa I per il suo ritornato sul trono, poi con Murad IV per la sua ascesa al trono."
+Person_110,Position091,Bailo,1734-01-01,,,1/1/1739,,,,,*Bailo.
+Person_111,Position092,Bailo,1519-01-01,,,1/1/1522,,,,,*Bailo.
+Person_111,Position093,Ambasciatore,1528-01-01,,,,,,,Istanbul,Ambasciatore per ringraziare il sultano di forniture di grano e nitrati. *Ambasciatore per ringraziare il sultano di forniture di grano e nitrati.
+Person_111,Position094,Ambasciatore,1532-01-01,,,,,,,Istanbul,Ambasciatore per fugare i sospetti di un’intesa tra la Repubblica e i Cesarei a presa di Salona in Dalmazia. *Ambasciatore per fugare i sospetti di un’intesa tra la Repubblica e i Cesarei a presa di Salona in Dalmazia.
+Person_111,Position095,Ambasciatore,1539-01-01,,,,,,,Istanbul,Ambasciatore per trattare la pace. Non ottenne nulla. La commissione era quella di Pietro Zen.Il segretario Pietro de’ Franceschi ebbe la commissione il 23 dicembre 1539 *Ambasciatore per trattare la pace; non ottenne nulla.
+Person_115,Position096,Dragomano del Cairo,,,,,,,,,
+Person_116,Position097,Ambasciatore,1387-01-01,,,,,,,,Inviato per lamentare attacchi al territorio veneziano e per chiedere il rilascio di prigionieri. *Ambasciatore inviato per lamentare attacchi al territorio veneziano e per chiedere il rilascio di prigionieri. La sua missione non ebbe il successo desiderato.
+Person_117,Position098,Inviato,1376-01-01,,,,,,,,"Inviato a trattare con il basileus e, nel caso fosse necessario, anche con Murad I *Il primo come capitano generale da mar, e gli altri come provveditori, furono inviati a trattare con il basileus e, nel caso fosse necessario, anche con Murad I."
+Person_117,Position099,Ambasciatore,1377-01-01,,,,,,,Edirne,Ambasciatore per trattare con Murad I un’alleanza in funzione anti-genovese. *Ambasciatori per trattare con Murad I un’alleanza in funzione anti-genovese.
+Person_119,Position100,Bailo,1575-01-01,,,1/1/1577,,,,,*Bailo.
+Person_120,Position101,Balio,1761-01-01,,,1/1/1765,,,,,*Bailo.
+Person_121,Position102,Interprete,,,,,,,,,
+Person_122,Position103,Nodario,,,,,,,,,
+Person_122,Position104,Segretario,,,,,,,,,
+Person_122,Position105,Gdl,,,,,,,,,
+Person_123,Position106,Bailo,1536-01-01,,,1/1/1539,,,,,Fu posto in prigione allo scoppio della guerra e liberato quando si concluse la pace.*Bailo. Fu posto in prigione allo scoppio della guerra e liberato quando si concluse la pace.
+Person_124,Position107,Inviato,1399-01-01,,,,,,,,"Inviato per negoziare pace e amicizia *Inviati, il primo come capitano generale del Golfo, e gli altri come provveditori dell’armata in Golfo, per negoziare pace e amicizia."
+Person_125,Position108,Bailo,1748-01-01,,,1/1/1751,,,,,*Bailo.
+Person_126,Position109,Dragomano del Cairo,,,,,,,,,
+Person_127,Position110,Ambasciatore,1388-01-01,,,,,,,,Inviato per chiedere il rilascio di prigionieri e spiegare a Murad I che le truppe veneziane non possono essere inviate a sostenerlo nelle sue campagne militari. *Ambasciatore inviato per chiedere il rilascio di prigionieri e spiegare a Murad I che le truppe veneziane non possono essere inviate a sostenerlo nelle sue campagne militari.
+Person_128,Position111,Vicebailo,1562-01-01,,,,,,,,Sostituì il Ferro.*Vicebailo. Sostituì il Ferro.
+Person_129,Position112,Inviato,1426-01-01,,,,,,,,"Inviato per trattare la pace. *Inviati, il primo come duca di Salonicco e l’altro come capitano di Salonicco, per trattare la pace."
+Person_129,Position113,Ambasciatore,1428-01-01,,,,,,,Edirne,"Inviato a Murad II per trattare la pace. Fatto prigioniero probabilmente morì in prigione.*Ambasciatore. Inviato, come capitano di Salonicco, a Murad II per trattare la pace. Fatto prigioniero probabilmente morì in prigione."
+Person_130,Position114,Ambasciatore,1382-01-01,,,,,,,,"Incaricato di trattare, o di persona o tramite loro rappresentanti, con Murad I la questione dell’isola di Tenedo. *Ambasciatori. Zorzi come capitano generale da terra in partibus Thenedi , Miani come capitano in Golfo, mentre Dandolo e Bembo come provveditori dell’armata, furono incaricati di trattare, o di persona o tramite loro rappresentanti, con Murad I la questione dell’isola di Tenedo."
+Person_131,Position115,Inviato,1478-01-01,,,,,,,,"*Inviato, come segretario."
+Person_131,Position116,Inviato per confini,1481-01-01,,,,,,,Istanbul," *Inviato, come segretario, per confini."
+Person_131,Position117,Inviato,1484-01-01,,,1485-01-01,,,,Istanbul,"*Inviato, come segretario."
+Person_131,Position118,Inviato,1487-01-01,,,,,,,Istanbul," *Inviato, come segretario."
+Person_132,Position119,Inviato,1393-01-01,,,,,,,,Inviato per questioni commerciali *Inviato per questioni commerciali.
+Person_133,Position120,Inviato,1426-01-01,,,,,,,,"Inviato dal capitano generale in Golfo Andrea Mocenigo a Murad II per trattare la pace. Fatto prigioniero, riuscì tuttavia ad accordarsi con Saruca, subaşı di Gallipoli.*Notaio ducale. Inviato dal capitano generale in Golfo Andrea Mocenigo a Murad II per trattare la pace. Fatto prigioniero, riuscì tuttavia ad accordarsi con Saruca, subaşı di Gallipoli."
+Person_133,Position121,Inviato,1435-01-01,,,,,,,Edirne,Inviato a Murad II per questioni commerciali. *Inviato a Murad II per questioni commerciali.
+Person_134,Position122,Segretario,1548-01-01,,,,,,,,"Inviato *Inviato, come segretario."
+Person_135,Position123,Inviato,1502-01-01,,,,,,,,"*Inviato, come segretario."
+Person_136,Position124,Inviato,1411-01-01,,,,,,,,Inviato a Musa dal bailo per spiegare il rifiuto veneziano di pagargli il tributo. *Inviato a Musa dal bailo per spiegare il rifiuto veneziano di pagargli il tributo.
+Person_136,Position125,Inviato,1413-01-01,,,,,,,Edirne,"Inviato dal bailo, per ordine espresso del Senato, a Musa per richiedere una riduzione del tributo per l’Albania. Al momento della sua partenza Musa era già stato sconfitto e ucciso.*Inviato dal bailo, per ordine espresso del Senato, a Musa per richiedere una riduzione del tributo per l’Albania. Al momento della sua partenza Musa era già stato sconfitto e ucciso."
+Person_137,Position126,Inviato,1533-01-01,,,,,,,,"Inviato per questioni relative a uno scontro navale. *Inviato, come segretario, per questioni relative a uno scontro navale."
+Person_139,Position127,Bailo,1751-01-01,,,1/1/1754,,,,,*Bailo.
+Person_140,Position128,Ambasciatore,1418-01-01,,,1/1/1419,,,,,"Inviato a Mehmed I per impedire attacchi contro gli abitanti di Corfù, per pace e rilascio di prigionieri, per l’affare albanese e per commercio. *Ambasciatore. Inviato, essendo già bailo alla corte del basileus , a Mehmed I per impedire attacchi contro gli abitanti di Corfù, per pace e rilascio di prigionieri, per l’affare albanese e per commercio."
+Person_141,Position129,Ambasciatore,1417-01-01,,,,,,,,"Inviato a Mehmed I per pace Non avendo ancora incontrato il sovrano nel 1418 venne sostituito anche come ambasciatore dal nuovo bailo Bertuccio Diedo.*Ambasciatore. Inviato, essendo già bailo alla corte del basileus , a Mehmed I per pace; non avendo ancora incontrato il sovrano nel"
+Person_142,Position130,Bailo,1726-01-01,,,1/1/1729,,,,,Morì a Costantinopoli il 22 September 1729; resse il bailaggio il segretario Orazio Bartolini.*Bailo. Morì a Costantinopoli il 22 September 1729 ; resse il bailaggio il segretario Orazio Bartolini.
+Person_143,Position131,Bailo,1754-01-01,,,1/1/1757,,,,,Assunse poi il titolo di ambasciatore straordinario.*Bailo. Assunse poi il titolo di ambasciatore straordinario.
+Person_143,Position132,Ambasciatore straordinario,,,,,,,,,
+Person_144,Position133,Bailo,1742-01-01,,,1/1/1745,,,,,*Bailo.
+Person_145,Position134,Ambasciatore,1595-01-01,,,,,,,,Ambasciatore per congratularsi con Mehmed III per la sua ascesa al trono. *Ambasciatore per congratularsi con Mehmed III per la sua ascesa al trono.
+Person_146,Position135,Vicebailo,1516-01-01,,,,,,,,*Vicebailo.
+Person_147,Position136,Interprete,,,,,,,,,
+Person_149,Position137,Translator,,,,,,,,,
+Person_152,Position138,Bailo,1730-01-01,,,1/1/1734,,,,,*Bailo. Assunse anche il titolo di ambasciatore.
+Person_152,Position139,Ambasciatore,,,,,,,,,
+Person_153,Position140,Ambasciatore,1421-01-01,,,,,,,,"Inviato a Murad II per congratularsi per la sua ascesa al trono e per rinnovare la pace. *Ambasciatore. Inviato, essendo già bailo alla corte del basileus , a Murad II per congratularsi per la sua ascesa al trono e per rinnovare la pace."
+Person_153,Position141,Ambasciatore,1422-01-01,,,,,,,Edirne,"Ambaciatore per cercare di annodare rapporti di pace tra il basileus e Murad II. *Ambasciatore, essendo già bailo alla corte del basileus , per cercare di annodare rapporti di pace tra il basileus e Murad II."
+Person_153,Position142,Ambasciatore,1427-01-01,,,,,,,Edirne,Inviato a Murad II per fargli ratificare l’accordo redatto da Giovanni de’ Bonisio e Saruca. *Ambasciatore. Inviato a Murad II per fargli ratificare l’accordo redatto da Giovanni de’ Bonisio e Saruca.
+Person_154,Position143,Bailo,1720-01-01,,,1/1/1724,,,,,*Bailo.
+Person_155,Position144,Bailo,1554-01-01,,,1/1/1556,,,,,*Bailo.
+Person_156,Position145,Bailo,1739-01-01,,,1/1/1742,,,,,*Bailo.
+Person_158,Position146,Ambasciatore,1486-01-01,,,1/1/1489,,,,,approximateAmbasciatore per la ratifica della pace Si fermò poi a Costantinopoli come bailo.*Ambasciatore per la ratifica della pace; si fermò poi a Costantinopoli come bailo.
+Person_158,Position147,Bailo,,,,,,,,,
+Person_159,Position148,Bailo,1560-01-01,,,1/1/1561,,,,,Morì a Pera di peste il 20 November 1561.*Bailo. Morì a Pera di peste il 20 November 1561 .
+Person_160,Position149,Gdl,,,,,,,,,
+Person_161,Position150,Gdl,,,,,,,,,
+Person_163,Position151,Gdl,,,,,,,,,
+Person_163,Position152,Dragomano,,,,,,,,,
+Person_164,Position153,Interprete,,,,,,,,,
+Person_165,Position154,Gdl,,,,,,,,,
+Person_166,Position155,Gdl,,,,,,,,,
+Person_166,Position156,Dragomano publico,,,,,,,,,
+Person_168,Position157,Bailo,1792-01-01,,,1/1/1797,,,,,*Bailo.
+Person_169,Position158,Bailo,1757-01-01,,,1/1/1762,,,,,"Assunse il titolo di ambasciatore straodinario nel 1758, alla partenza del Donà.*Bailo. Assunse il titolo di ambasciatore straodinario nel 1758, alla partenza del Donà."
+Person_169,Position159,Ambasciatore straordinario,,,,,,,,,
+Person_170,Position160,Inviato,1401-01-01,,,,,,,,Inviato per negoziare pace e amicizia. *Inviati per negoziare pace e amicizia.
+Person_170,Position161,Ambasciatore,1414-01-01,,,,,,,Edirne,"Inviato a Mehmed I per rinnovare la pace. *Ambasciatore, già bailo alla corte del basileus . Inviato a Mehmed I per rinnovare la pace."
+Person_171,Position162,Balio,1788-01-01,,,1/1/1792,,,,,Nel settembre 1789 assunse il titolo di ambasciatore straordinario.*Bailo; nel settembre 1789 assunse il titolo di ambasciatore straordinario.
+Person_171,Position163,Ambasciatore straordinario,,,,,,,,,
+Person_172,Position164,Bailo,1632-01-01,,,1/1/1637,,,,,*Bailo.
+Person_173,Position165,Ambasciatore,1640-01-01,,,1/1/1641,,,,,Ambasciatore per congratularsi con İbrahim I per la sua ascesa al trono. *Ambasciatore per congratularsi con İbrahim I per la sua ascesa al trono.
+Person_174,Position166,Ambasciatore,1445-01-01,,,,,,,,"Inviato per accordarsi sulla pace con Murad II e Mehmed II. La pace venne poi conclusa da Aldovrandino de’ Giusti e ratificata con Murad II alla presenza di Bartolomeo de’ Giusti.*Ambasciatori. Inviati, il primo come comandante delle galee pontificie e il secondo come già bailo alla corte del basileus , per accordarsi sulla pace con Murad II e Mehmed II. La pace venne poi conclusa da Aldovrandino de’ Giusti e ratificata con Murad II alla presenza di Bartolomeo de’ Giusti."
+Person_175,Position167,Bailo,1507-01-01,,,1/1/1512,,,,,*Bailo.
+Person_176,Position168,Bailo,1582-01-01,,,1/1/1585,,,,,Divenne poi vescovo di Brescia e cardinale.*Bailo. Divenne poi vescovo di Brescia e cardinale.
+Person_177,Position169,Translator,,,,,,,,,
+Person_178,Position170,Bailo,1781-01-01,,,1/1/1786,,,,,*Bailo.
+Person_179,Position171,Gdl,,,,,,,,,
+Person_180,Position172,Dragoman,,,,,,,,,
+Person_181,Position173,Dragomano grande,,,,,,,,,
+Person_182,Position174,Gdl,,,,,,,,,
+Person_182,Position175,Dragomano protogero,,,,,,,,,
+Person_183,Position176,Ambasciatore,1513-01-01,,,,,,,,"Ambasciatore, per felicitarsi con Selim I per la sua ascesa al trono. *Ambasciatore, per felicitarsi con Selim I per la sua ascesa al trono."
+Person_184,Position177,Bailo,1703-01-01,,,1/1/1710,,,,,*Bailo.
+Person_185,Position178,Ambasciatore,1406-01-01,,,,,,,,Inviato a Süleyman per spiegare l’intervento veneziano in Albania. *Ambasciatore. Inviato a Süleyman per spiegare l’intervento veneziano in Albania.
+Person_185,Position179,Ambasciatore,1409-01-01,,,,,,,Edirne,Inviato per negoziare pace e buone relazioni commerciali. *Ambasciatore. Inviato per negoziare pace e buone relazioni commerciali.
+Person_186,Position180,Bailo,1620-01-01,,,1/1/1627,,,,,(Inviato) *Bailo.
+Person_187,Position181,Inviato,1376-01-01,,,,,,,,"Inviato a trattare con il basileus e, nel caso fosse necessario, anche con Murad I *Il primo come capitano generale da mar, e gli altri come provveditori, furono inviati a trattare con il basileus e, nel caso fosse necessario, anche con Murad I."
+Person_188,Position182,Vicebailo,1508-01-01,,,1/1/1516,,,,,*Vicebailo.
+Person_188,Position183,Bailo,1533-01-01,,,1536-01-01,1/1/1536,,,Istanbul, *Bailo.
+Person_189,Position184,Bailo,1489-01-01,,,1/1/1492,,,,,approximate*Bailo.
+Person_190,Position185,Bailo,1775-01-01,,,1/1/1778,,,,,*Bailo.
+Person_191,Position186,Ambasciatore,1377-01-01,,,,,,,,Ambasciatore per trattare con Murad I un’alleanza in funzione anti-genovese. *Ambasciatori per trattare con Murad I un’alleanza in funzione anti-genovese.
+Person_192,Position187,Bailo,1599-01-01,,,1/1/1600,,,,,Morto a Pera il 22 February 1600.*Bailo. Morto a Pera il 22 February 1600.
+Person_195,Position188,Dragomano,,,,,,,,,
+Person_196,Position189,Dragomano,,,,,,,,,
+Person_201,Position190,Gdl,,,,,,,,,
+Person_201,Position191,Dragomano grande,,,,,,,,,
+Person_203,Position192,Ambasciatore,1503-01-01,,,,,,,,Ambasciatore per rinnovare la pace e chiedere che un bailo risiedesse nuovamente a Costantinopoli. *Ambasciatore per rinnovare la pace e chiedere che un bailo risiedesse nuovamente a Costantinopoli.
+Person_204,Position193,Bailo,1479-01-01,,,1/1/1483,,,,,approximate*Bailo.
+Person_205,Position194,Bailo,1723-01-01,,,1/1/1727,,,,,*Bailo.
+Person_206,Position195,Inviato,1539-01-01,,,,,,,,Inviato per cominciare le trattative di pace. *Inviato per cominciare le trattative di pace.
+Person_207,Position196,Interprete della lingua Greca et Italiana nella Cefalonia,,,,,,,,,
+Person_208,Position197,Interprete della lingua Hebraica,,,,,,,,,
+Person_209,Position198,Interprete della lingua Schiava,,,,,,,,,
+Person_210,Position199,Dragomano,,,,,,,,,
+Person_211,Position200,Bailo,1590-01-01,,,1/1/1591,,,,,Fu rinviato a Venezia in catene con l’accusa di tradimento. Si annegò (o venne annegato) appena giunto in vista del porto di Lido.*Bailo. Fu rinviato a Venezia in catene con l’accusa di tradimento. Si annegò (o venne annegato) appena giunto in vista del porto di Lido.
+Person_212,Position201,Dragomano,,,,,,,,,
+Person_213,Position202,Ambasciatore,1445-01-01,,,,,,,,"Inviato per accordarsi sulla pace con Murad II e Mehmed II. La pace venne poi conclusa da Aldovrandino de’ Giusti e ratificata con Murad II alla presenza di Bartolomeo de’ Giusti.*Ambasciatori. Inviati, il primo come comandante delle galee pontificie e il secondo come già bailo alla corte del basileus , per accordarsi sulla pace con Murad II e Mehmed II. La pace venne poi conclusa da Aldovrandino de’ Giusti e ratificata con Murad II alla presenza di Bartolomeo de’ Giusti."
+Person_214,Position203,Inviato,1426-01-01,,,,,,,,"Inviato per trattare la pace. *Inviati, il primo come duca di Salonicco e l’altro come capitano di Salonicco, per trattare la pace."
+Person_215,Position204,Ambasciatore,1407-01-01,,,,,,,,Inviato a Süleyman per parlare della questione albanese. *Ambasciatore. Inviato a Süleyman per parlare della questione albanese.
+Person_215,Position205,Ambasciatore,1408-01-01,,,,,,,Edirne,"Incaricato di giustificare con Süleyman l’occupazione di Patrasso. *Ambasciatore, già bailo alla corte del basileus . Incaricato di giustificare con Süleyman l’occupazione di Patrasso."
+Person_216,Position206,Inviato,1424-01-01,,,,,,,,"Inviato per trattare la pace. *Inviato, come capitano generale da Mar, per trattare la pace."
+Person_217,Position207,Ambasciatore,1384-01-01,,,,,,,,Inviato per trattare amicizia e possibilità di commercio *Ambasciatore inviato per trattare amicizia e possibilità di commercio.
+Person_218,Position208,Ambasciatore,1478-01-01,,,,,,,,Ambasciatore per lamentare un fatto avvenuto ad Antivari. *Ambasciatore per lamentare un fatto avvenuto ad Antivari.
+Person_219,Position209,imperial dragoman,,,,,,,,,
+Person_220,Position210,Inviato,1500-01-01,,,,,,,,"Inviato ad partes orientis. *Inviato, come segretario, ad partes orientis."
+Person_221,Position211,Ambasciatore,1453-01-01,,,1/1/1454,,,,,"Ambasciatore per trattare la pace, rimase poi come bailo. *Ambasciatore per trattare la pace, rimase poi come bailo."
+Person_221,Position212,Bailo,,,,,,,,,
+Person_222,Position213,Bailo,1492-01-01,,,,,,,,Fu allontanato da Bayezid II perché trasmetteva notizie riservate a Venezia. *Bailo. Fu allontanato da Bayezid II perché trasmetteva notizie riservate a Venezia.
+Person_223,Position214,Interprete della lingua Serviana,,,,,,,,,
+Person_225,Position215,Gdl,,,,,,,,,
+Person_225,Position216,Nodario estraordinario della Cancellaria ducal,,,,,,,,,
+Person_226,Position217,Gdl,,,,,,,,,
+Person_226,Position218,Dragomano grande,,,,,,,,,
+Person_229,Position219,Gdl,,,,,,,,,
+Person_230,Position220,Maestro di Gdls,,,,,,,,,
+Person_231,Position221,Interprete della lingua Schiava,,,,,,,,,
+Person_233,Position222,Gdl,,,,,,,,,
+Person_235,Position223,Ven. pubblico dragomano,,,,,,,,,
+Person_237,Position224,Dragomano publico,,,,,,,,,
+Person_238,Position225,Bailo,1713-01-01,,,1/1/1715,,,,,Durante la guerra venne posto in prigione e per questo tornato a Venezia nel 1715 venne fatto cavaliere.*Bailo. Durante la guerra venne posto in prigione e per questo tornato a Venezia nel 1715 venne fatto cavaliere.
+Person_239,Position226,Bailo,1778-01-01,,,1/1/1782,,,,,*Bailo.
+Person_240,Position227,Inviato,1376-01-01,,,,,,,,"Inviato a trattare con il basileus e, nel caso fosse necessario, anche con Murad I *Il primo come capitano generale da mar, e gli altri come provveditori, furono inviati a trattare con il basileus e, nel caso fosse necessario, anche con Murad I."
+Person_241,Position228,Ambasciatore,1382-01-01,,,,,,,,"Incaricato di trattare, o di persona o tramite loro rappresentanti, con Murad I la questione dell’isola di Tenedo. *Ambasciatori. Zorzi come capitano generale da terra in partibus Thenedi , Miani come capitano in Golfo, mentre Dandolo e Bembo come provveditori dell’armata, furono incaricati di trattare, o di persona o tramite loro rappresentanti, con Murad I la questione dell’isola di Tenedo."
+Person_242,Position229,Inviato,1425-01-01,,,,,,,,"Inviato a Murad II per trattare la pace. *Inviato, come capitano generale da Mar, a Murad II per trattare la pace."
+Person_243,Position230,Ambasciatore,1520-01-01,,,,,,,,Ambasciatore per felicitarsi con Süleyman I per la sua ascesa al trono e per rinnovare la pace. *Ambasciatore per felicitarsi con Süleyman I per la sua ascesa al trono e per rinnovare la pace.
+Person_244,Position231,Ambasciatore,1526-01-01,,,,,,,,inviato per complimentarsi per le vittorie del sultano in Ungheria. *Ambasciatore inviato per complimentarsi per le vittorie del sultano in Ungheria.
+Person_245,Position232,Ambasciatore,1517-01-01,,,,,,,,"Ambasciatore a Selim I, che si trovava allora in Egitto, per congratularsi per le sue vittorie. *Ambasciatori a Selim I, che si trovava allora in Egitto, per congratularsi per le sue vittorie."
+Person_246,Position233,Bailo,1709-01-01,,,1/1/1714,,,,,*Bailo.
+Person_247,Position234,Inviato,1426-01-01,,,,,,,,"Inviato per negoziare la pace e per ottenere il rilascio di Giovanni de’ Bonisio. *Inviato, come capitano in Golfo, per negoziare la pace e per ottenere il rilascio di Giovanni de’ Bonisio."
+Person_248,Position235,Ambasciatore,1604-01-01,,,1/1/1605,,,,,Ambasciatore per congratularsi con Ahmed I per la sua ascesa al trono. *Ambasciatore per congratularsi con Ahmed I per la sua ascesa al trono.
+Person_249,Position236,Ambasciatore,1529-01-01,,,,,,,,Ambasciatore per i festeggiamenti per la la circoncisione dei figli del sultano. *Ambasciatore per i festeggiamenti per la la circoncisione dei figli del sultano.
+Person_250,Position237,Ambasciatore,1536-01-01,,,,,,,,Ambasciatore per congratularsi con il sultano per le sue vittorie in Persia. *Ambasciatore per congratularsi con il sultano per le sue vittorie in Persia.
+Person_251,Position238,Gentiluomo Inviato; Ambasciatore; Bailo,1668-01-01,,,1/1/1671,,,,,Inviato e poi ambasciatore per trattare la pace Fu al campo sotto Candia. Morì a Costantinopoli il 25 agosto 1671.*Gentiluomo inviato e poi ambasciatore per trattare la pace e quindi bailo; fu al campo sotto Candia. Morì a Costantinopoli il 25 August 1671.
+Person_252,Position239,Bailo,1587-01-01,,,1/1/1590,,,,,*Bailo.
+Person_253,Position240,Ambasciatore,1451-01-01,,,,,,,,Inviato a Mehmed II per congratularsi per la sua ascesa al trono e per rinnovare la pace. *Ambasciatore. Inviato a Mehmed II per congratularsi per la sua ascesa al trono e per rinnovare la pace.
+Person_254,Position241,Bailo,1675-01-01,,,1/1/1680,,,,,*Bailo.
+Person_255,Position242,(Inviato),1430-01-01,,,,,,,,"Incaricato di prendere Salonicco; nel caso non vi fosse riuscito doveva cercare di accordarsi con Murad II. Tale accordo venne poi concluso dal Morosini coadiuvato da Nicolò Bellavista.*Incaricato, come capitano generale da Mar, di prendere Salonicco; nel caso non vi fosse riuscito doveva cercare di accordarsi con Murad II. Tale accordo venne poi concluso dal Morosini coadiuvato da Nicolò Bellavista."
+Person_256,Position243,Bailo,1600-01-01,,,1/1/1603,,,,,*Bailo.
+Person_257,Position244,Bailo,1614-01-01,,,1/1/1620,,,,,(Inviato) *Bailo.
+Person_258,Position245,Bailo,1550-01-01,,,1/1/1552,,,,,*Bailo.
+Person_259,Position246,Gdl,,,,,,,,,
+Person_260,Position247,Gdl,,,,,,,,,
+Person_262,Position248,Gdl,,,,,,,,,
+Person_262,Position249,Dragomano,,,,,,,,,
+Person_263,Position250,Gdl,,,,,,,,,
+Person_265,Position251,Dragomano,,,,,,,,,
+Person_266,Position252,Dragomano protogero,,,,,,,,,
+Person_267,Position253,Dragomano protogero,,,,,,,,,
+Person_268,Position254,Gdl,,,,,,,,,
+Person_269,Position255,Inviato,1504-01-01,,,1/1/1507,,,,,"approximate*Inviato, come segretario."
+Person_270,Position256,Dragomano publico,,,,,,,,,
+Person_271,Position257,Dragomano,,,,,,,,,
+Person_272,Position258,Dragomano,,,,,,,,,
+Person_273,Position259,Dragomano publico,,,,,,,,,
+Person_275,Position260,Gdl,,,,,,,,,
+Person_277,Position261,dragoman,,,,,,,,,
+Person_278,Position262,Gdl,,,,,,,,,
+Person_278,Position263,Dragomano,,,,,,,,,
+Person_279,Position264,1605: elected prior of Magnifica Comunita,1904-05-23,,,,,,,,
+Person_279,Position265,1606: prior - Dalleggio,,1606,,,,,,,
+Person_281,Position266,Dragomano della lingua Turca in Spalato,,,,,,,,,
+Person_282,Position267,Gdl,,,,,,,,,
+Person_283,Position268,Interprete,,,,,,,,,
+Person_284,Position269,Dragomano,,,,,,,,,
+Person_285,Position270,Gdl,,,,,,,,,
+Person_285,Position271,Dragomano,,,,,,,,,
+Person_286,Position272,Gdl,,,,,,,,,
+Person_290,Position273,dragoman,,,,,,,,,
+Person_292,Position274,Dragomano publico in Candia,,,,,,,,,
+Person_293,Position275,Gdl,,,,,,,,,
+Person_296,Position276,Bailo,1522-01-01,,,1/1/1523,,,,,Morì di peste a Costantinopoli il 18 July 1523..*Bailo. Morì di peste a Costantinopoli il 18 July 1523.
+Person_297,Position277,Interprete al servizio del sultano,,,,,,,,,
+Person_298,Position278,Ambasciatore,1390-01-01,,,,,,,,Inviato al nuovo sovrano Bayezid I per ottenere accordi commerciali e liberazione di prigionieri. *Ambasciatore inviato al nuovo sovrano Bayezid I per ottenere accordi commerciali e liberazione di prigionieri.
+Person_299,Position279,Bailo,1671-01-01,,,1/1/1675,,,,,*Bailo.
+Person_300,Position280,Inviato,1392-01-01,,,,,,,,"Inviato, senza il titolo di ambasciatore, per cercare di impedire attacchi al territorio di Negroponte. *Fu inviato, senza il titolo di ambasciatore, per cercare di impedire attacchi al territorio di Negroponte."
+Person_301,Position281,Inviato,1444-01-01,,,,,,,,Inviato a Murad II per spiegare la presenza di navi veneziane presso i Dardanelli. *Inviato a Murad II per spiegare la presenza di navi veneziane presso i Dardanelli.
+Person_302,Position282,Inviato,1571-01-01,,,,,,,,Inviato *Inviato.
+Person_303,Position283,Bailo,1547-01-01,,,1/1/1550,,,,,*Bailo.
+Person_303,Position284,Ambasciatore,1556-01-01,,,,,,,Istanbul,Ambasciatore per congratularsi con il sultano per le vittorie in Persia. *Ambasciatore per congratularsi con il sultano per le vittorie in Persia.
+Person_304,Position285,Bailo,1771-01-01,,,1/1/1775,,,,,"Assunse poi il titolo di ambasciatore straordinario.*Bailo, assunse poi il titolo di ambasciatore straordinario."
+Person_304,Position286,Ambasciatore straordinario,,,,,,,,,
+Person_306,Position287,Ambasciatore,1705-01-01,,,1/1/1706,,,,,Ambasciatore per congratularsi con Ahmed III per la sua ascesa al trono. *Ambasciatore per congratularsi con Ahmed III per la sua ascesa al trono.
+Person_307,Position288,Ambasciatore,1719-01-01,,,1/1/1720,,,,,Ambasciatore per ratificare la pace di Passarowitz. *Ambasciatore per ratificare la pace di Passarowitz.
+Person_308,Position289,Interprete,,,,,,,,,
+Person_308,Position290,Clergy,,,,,,,,,
+Person_309,Position291,Inviato,1493-01-01,,,,,,,,"*Inviato, come segretario."
+Person_309,Position292,Inviato,1496-01-01,,,,,,,Istanbul," *Inviato, come segretario."
+Person_309,Position293,Inviato,1497-01-01,,,,,,,Istanbul,"*Inviato, come segretario."
+Person_310,Position294,Inviato,1461-01-01,,,,,,,,Inviato *Inviato.
+Person_312,Position295,Dragomano,,,,,,,,,
+Person_313,Position296,Gdl,,,,,,,,,
+Person_313,Position297,Dragomano,,,,,,,,,
+Person_314,Position298,Dragomano di strada,,,,,,,,,
+Person_316,Position299,Dragomano della Nation nostra in Aleppo,,,,,,,,,
+Person_316,Position300,Dragomano di strada,,,,,,,,,
+Person_317,Position301,Dragomano,,,,,,,,,
+Person_319,Position302,Gdl,,,,,,,,,
+Person_320,Position303,Gdl,,,,,,,,,
+Person_320,Position304,Dragomano publico,,,,,,,,,
+Person_322,Position305,Dragomano grande,,,,,,,,,
+Person_325,Position306,Inviato,1397-01-01,,,,,,,,"Inviato per negoziare pace e amicizia *Inviati, il primo come capitano generale del Golfo, e il secondo come vicebailo, per negoziare pace e amicizia."
+Person_326,Position307,Bailo,1566-01-01,,,1/1/1568,,,,,*Bailo.
+Person_326,Position308,Ambasciatore,1575-01-01,,,1576-01-01,,,,Istanbul,Ambasciatore per congratularsi con Murad III per la sua ascesa al trono. *Ambasciatore per congratularsi con Murad III per la sua ascesa al trono.
+Person_326,Position309,Ambasciatore,1582-01-01,,,,,,,Istanbul,Ambasciatore per la circoncisione del figlio del sultano. *Ambasciatore per la circoncisione del figlio del sultano.
+Person_327,Position310,Bailo,1642-01-01,,,1/1/1650,,,,,(Inviato) Durante la guerra venne posto in prigione.*Bailo. Durante la guerra venne posto in prigione.
+Person_328,Position311,Ambasciatore,1699-01-01,,,1/1/1704,,,,,"Ambasciatore per la ratifica della pace di Karlowitz. *Ambasciatore per la ratifica della pace di Karlowitz, poi bailo."
+Person_328,Position312,bailo,,,,,,,,,
+Person_329,Position313,Gdl,,,,,,,,,
+Person_330,Position314,Ambasciatore,1403-01-01,,,,,,,,"Inviato ai figli di Bayezid, Süleyman e Isa per ratificare la pace. *Ambasciatore inviato ai figli di Bayezid, Süleyman e Isa per ratificare la pace."
+Person_333,Position315,Dragomano grande,,,,,,,,,
+Person_334,Position316,Gdl,,,,,,,,,
+Person_335,Position317,Scholar,,,,,,,,,
+Person_335,Position318,Translator,,,,,,,,,
+Person_337,Position319,Gdl,,,,,,,,,
+Person_338,Position320,Gdl,,,,,,,,,
+Person_338,Position321,Dragomano,,,,,,,,,
+Person_339,Position322,Gdl,,,,,,,,,
+Person_339,Position323,Dragomano,,,,,,,,,
+Person_341,Position324,Dragomano publico,,,,,,,,,
+Person_341,Position325,Dragomano da strada,,,,,,,,,
+Person_341,Position326,Dragomano grande,,,,,,,,,
+Person_343,Position327,Bailo,1573-01-01,,,1/1/1576,,,,,*Bailo.
+Person_344,Position328,Ambasciatore,1545-01-01,,,1/1/1546,,,,,Ambasciatore per congratularsi con il sultano per le vittorie d’Ungheria. *Ambasciatore. Per congratularsi con il sultano per le vittorie d’Ungheria.
+Person_345,Position329,Gdl,,,,,,,,,
+Person_347,Position330,Gdl,,,,,,,,,
+Person_348,Position331,Bailo,1477-01-01,,,,,,,,*Bailo.
+Person_348,Position332,Ambasciatore,1479-01-01,,,,,,,Istanbul, *Ambasciatore.
+Person_349,Position333,Ambasciatore,1493-01-01,,,,,,,,"Ambasciatore, per convincere il sultano ad accogliere nuovamente un bailo veneziano. *Ambasciatore, per convincere il sultano ad accogliere nuovamente un bailo veneziano."
+Person_350,Position334,Bailo,1552-01-01,,,1/1/1554,,,,,*Bailo.
+Person_351,Position335,Ambasciatore,1411-01-01,,,,,,,,Inviato a Musa per trattare la pace e per cercare di risolvere la questione del tributo. *Ambasciatore. Inviato a Musa per trattare la pace e per cercare di risolvere la questione del tributo.
+Person_352,Position336,Bailo,1639-01-01,,,1/1/1642,,,,,Morto il 28 Aprile 1642; resse il bailaggio il segretario Angelo Alessandri.*Bailo. Morto il 28 April 1642; resse il bailaggio il segretario Angelo Alessandri.
+Person_353,Position337,Ambasciatore,1377-01-01,,,,,,,,Ambasciatore per trattare con Murad I un’alleanza in funzione anti-genovese. *Ambasciatori per trattare con Murad I un’alleanza in funzione anti-genovese.
+Person_354,Position338,Bailo,1611-01-01,,,1/1/1615,,,,,Morì a Corfù il 15 July 1615.*Bailo.
+Person_358,Position339,Dragomano,,,,,,,,,
+Person_360,Position340,Gdl,,,,,,,,,
+Person_360,Position341,Coadiutore,,,,,,,,,
+Person_360,Position342,Segretario,,,,,,,,,
+Person_361,Position343,Dragomano,,,,,,,,,
+Person_363,Position344,Bailo,1796-01-01,,,1/1/1797,,,,,*Bailo.
+Person_364,Position345,Interprete,,,,,,,,,
+Person_365,Position346,Ambasciatore,1416-01-01,,,,,,,,Inviato a Mehmed I per cercare di ottenere la liberazione di prigionieri e navi catturate e per trattare dell’Albania e di Negroponte. Gli accordi da lui raggiunti furono considerati insostenibili dai veneziani.*Ambasciatore. Inviato a Mehmed I per cercare di ottenere la liberazione di prigionieri e navi catturate e per trattare dell’Albania e di Negroponte. Gli accordi da lui raggiunti furono considerati insostenibili dai veneziani.
+Person_366,Position347,Bailo,1745-01-01,,,1/1/1749,,,,,*Bailo.
+Person_367,Position348,Inviato,1466-01-01,,,,,,,,"Inviato per trattare la pace. *Inviato, come capitano del Golfo, per trattare la pace."
+Person_368,Position349,Bailo,1593-01-01,,,1/1/1597,,,,,*Bailo.
+Person_369,Position350,Ambasciatore,1360-01-01,,,,,,,,Ambasciatore a Murad I per la presa di Adrianopoli. *Ambasciatori a Murad I per la presa di Adrianopoli.
+Person_370,Position351,Ambasciatore,1423-01-01,,,,,,,,Inviato a Murad II per trattare la pace e per la questione di Salonicco. *Ambasciatori. Inviati a Murad II per trattare la pace e per la questione di Salonicco. Nicolò Zorzi venne fatto prigioniero dal sultano.
+Person_371,Position352,Bailo,1626-01-01,,,1/1/1630,,,,,*Bailo.
+Person_372,Position353,Interprete,,,,,,,,,
+Person_374,Position354,Gdl,,,,,,,,,
+Person_375,Position355,Ambasciatore,1481-01-01,,,,,,,,"Ambasciatore, per felicitarsi con Bayezid II per la sua ascesa al trono. *Ambasciatore, per felicitarsi con Bayezid II per la sua ascesa al trono."
+Person_376,Position356,Bailo,1456-01-01,,,1/1/1458,,,,,approximate*Bailo.
+Person_377,Position357,Ambasciatore,1499-01-01,,,,,,,,Ambasciatore per rinnovare la pace. *Ambasciatore per rinnovare la pace.
+Person_378,Position358,Bailo,1541-01-01,,,1/1/1543,,,,,approximate*Bailo.
+Person_378,Position359,Ambasciatore,1567-01-01,,,,,,,Istanbul,Ambasciatore per protestare contro il trattamento usato con i rappresentanti veneziani Cavalli e Soranzo Mentre era a Lesina seppe dell’aggiustamento avvenuto e non proseguì.*Ambasciatore per protestare contro il trattamento usato con i rappresentanti veneziani Cavalli e Soranzo; mentre era a Lesina seppe dell’aggiustamento avvenuto e non proseguì.
+Person_379,Position360,Bailo,1591-01-01,,,1/1/1594,,,,,*Bailo.
+Person_380,Position361,Inviato,1397-01-01,,,,,,,,"Inviato per negoziare pace e amicizia *Inviati, il primo come capitano generale del Golfo, e il secondo come vicebailo, per negoziare pace e amicizia."
+Person_380,Position362,Vicebailo,,,,,,,,,
+Person_381,Position363,Bailo,1543-01-01,,,1/1/1544,,,,,Morì a Costantinopoli nell’autunno del 1544.*Bailo. Morì a Costantinopoli nell’autunno del 1544.
+Person_382,Position364,Ambasciatore,1550-01-01,,,,,,,,Ambasciatore per congratularsi con il sultano per le vittorie in Persia. *Ambasciatore per congratularsi con il sultano per le vittorie in Persia.
+Person_383,Position365,Inviato,1433-01-01,,,,,,,,"Inviato a Murad II per trattare della città di Dagno. *Inviato, come già bailo alla corte del basileus , a Murad II per trattare della città di Dagno."
+Person_384,Position366,Ambasciatore,1523-01-01,,,1/1/1524,,,,,Ambasciatore per congratularsi con il sultano per i successi di Rodi. Rimase come vicebailo in seguito all’improvvisa morte di Andrea Priuli.*Ambasciatore per congratularsi con il sultano per i successi di Rodi. Rimase come vicebailo in seguito all’improvvisa morte di Andrea Priuli.
+Person_384,Position367,Vicebailo,,,,,,,,,
+Person_384,Position368,Ambasciatore,1525-01-01,,,1530-01-01,,,,Istanbul,Ambasciatore e vicebailo per sostituire il Bragadin.
+Person_384,Position369,Ambasciatore,1531-01-01,,,1533-01-01,,,,Istanbul, Vicebailo per sostituire Francesco Bernardo. * Ambasciatore e vicebailo per sostituire Francesco Bernardo.
+Person_384,Position370,Ambasciatore,1539-01-01,,,,,,,Istanbul,"Ambasciatore per trattare la pace. Ormai ottantenne, morì a Sarajevo il 25 June 1539 durante il viaggio di andata. Venne sostituito da Tommaso Contarini con la medesima commissione.* Ambasciatore per trattare la pace. Ormai ottantenne, morì a Sarajevo il 25 June 1539 durante il viaggio di andata. Venne sostituito da Tommaso Contarini con la medesima commissione."
+Person_384,Position371,Negoziatore,1403-01-01,,,,,,,Edirne,"Il suo nome compare, come negoziatore veneziano, nella pace del 1403. *Il suo nome compare, come negoziatore veneziano, nella pace del 1403."
+Person_384,Position372,Ambasciatore,1408-01-01,,,,,,,Edirne,Inviato a Süleyman per protestare contro attacchi turchi ai territori di Corone e Modone e per giustificare l’occupazione di Lepanto. *Ambasciatore. Inviato a Süleyman per protestare contro attacchi turchi ai territori di Corone e Modone e per giustificare l’occupazione di Lepanto.
+Person_385,Position373,Gdl,,,,,,,,,
+Person_386,Position374,Ambasciatore,1474-01-01,,,,,,,,Ambasciatore per trattare la pace. *Ambasciatore per trattare la pace.
+Person_387,Position375,Ambasciatore,1382-01-01,,,,,,,,"Incaricato di trattare, o di persona o tramite loro rappresentanti, con Murad I la questione dell’isola di Tenedo. *Ambasciatori. Zorzi come capitano generale da terra in partibus Thenedi , Miani come capitano in Golfo, mentre Dandolo e Bembo come provveditori dell’armata, furono incaricati di trattare, o di persona o tramite loro rappresentanti, con Murad I la questione dell’isola di Tenedo."
+Person_388,Position376,Ambasciatore,1423-01-01,,,,,,,,Inviato a Murad II per trattare la pace e per la questione di Salonicco. Nicolò Zorzi venne fatto prigioniero dal sultano.*Ambasciatori. Inviati a Murad II per trattare la pace e per la questione di Salonicco. Nicolò Zorzi venne fatto prigioniero dal sultano.
+Person_389,Position377,Cavaliere,,,,,,,,,
+Person_389,Position378,Interprete della lingua Greca e Turca,,,,,,,,,
+Person_390,Position379,Bailo,1785-01-01,,,1/1/1788,,,,,*Bailo.
