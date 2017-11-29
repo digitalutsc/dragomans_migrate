@@ -84,21 +84,21 @@ process:
   field_subject_places:
     -
       plugin: explode
-      delimiter: '; '
+      delimiter: ';'
       source: places
     -
       plugin: entity_generate
   field_topic:
     -
       plugin: explode
-      delimiter: '; '
+      delimiter: ';'
       source: topics
     -
       plugin: entity_generate
   field_subject_agencies:
     -
       plugin: explode
-      delimiter: '; '
+      delimiter: ';'
       source: agencies
     -
       plugin: entity_generate

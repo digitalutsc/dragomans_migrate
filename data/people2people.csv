@@ -1,236 +1,236 @@
-person_id,person_name,related_person_name,related_person_id,role,notes
-Person_001,"Agapito, Gabriel","Agapito, ? [medico]",Person_002,Parent,Father
-Person_003,"Aggiondrite, Andrea","Aggiondrite, Zuane",Person_004,Child,Son
-Person_004,"Aggiondrite, Zuanne","Aggiondrite, Andrea",Person_003,Parent,Father
-Person_006,"Alberti, Girolamo","Alberti, Gasparo",Person_005,Parent,Father
-Person_006,"Alberti, Girolamo","Alberto, Marina",Person_007,Spouse,Wife
-Person_009,"Ambrosio, Filippo de","Ceroyco, Ambrosio",Person_095,Parent,Father
-Person_016,"Ausonio, Giulio",Polisotra,Person_295,Parent,Mother
-Person_020,"Balsarini, Carlo","Balsarini, Domenico",Person_021,Sibling,Brother
-Person_020,"Balsarini, Carlo","Balsarini, Giacomo",Person_022,Parent,Father
-Person_021,"Balsarini, Domenico","Balsarini, Carlo",Person_020,Sibling,Brother
-Person_021,"Balsarini, Domenico","Balsarini, Giacomo",Person_022,Parent,Father
-Person_022,"Balsarini, Giacomo","Balsarini, Carlo",Person_020,Child,Son?
-Person_022,"Balsarini, Giacomo","Balsarini, Domenico",Person_021,Child,Son
-Person_037,"Bon, Andrea","Bonà, Gio: Maria",Person_040,Parent,Father?
-Person_037,"Bon, Andrea","Salvago, Gio: Battista",Person_314,Indeterminate,Cousin
-Person_039,"Bonà, Christoforo di","Bonà, Gio: Maria",Person_040,Child,Son
-Person_040,"Bonà, Gio: Maria","Bon, Andrea",Person_037,Child,Son?
-Person_040,"Bonà, Gio: Maria","Bonà, Christofero di",Person_039,Parent,"For review: Linked to Bonà, Christoforo di - different person?"
-Person_045,"Borisi, Cecilia","Brutti, Christoforo II",Person_072,Spouse,Husband
-Person_045,"Borisi, Cecilia",Panteleone Mamuca delle Torre,Person_PANTELEONE,Spouse,Husband
-Person_046,"Borisi, Francesca",Asanina,Person_ASANINA,Child,For review: Child
-Person_046,"Borisi, Francesca",Gioia,Person_GIOIA,Parent,Mother
-Person_046,"Borisi, Francesca","Mascellini, Giovanni",Person_235,Spouse,"Mapped in this fashion, but original data said: ""Mascellini, Giovanni of Peraro"""
-Person_046,"Borisi, Francesca",Pellegrino (Fortuna) Testa,Person_PELLEGRINO,Spouse,Husband
-Person_046,"Borisi, Francesca","Skovgaard, Hans Andersen",Person_396,Spouse,Husband
-Person_048,"Borisi, Franeschina",Count Gravisi,Person_COUNTGRAVISI,Spouse,Husband
-Person_050,"Borisi, Marc'antonio","Borisi, Bernardo",Person_044,Sibling,Brother
-Person_050,"Borisi, Marc'antonio","Borisi, Cecilia",Person_045,Child,Daughter
-Person_050,"Borisi, Marc'antonio","Borisi, Francesca",Person_046,Child,Daughter
-Person_050,"Borisi, Marc'antonio","Borisi, Francesco",Person_047,Sibling,Brother
-Person_050,"Borisi, Marc'antonio","Borisi, Franeschina",Person_048,Sibling,Sister
-Person_050,"Borisi, Marc'antonio","Borisi, Giacoma",Person_049,Child,Daughter
-Person_050,"Borisi, Marc'antonio","Brutti, Christoforo",Person_071,Indeterminate,For review multiple Christos: Uncle
-Person_050,"Borisi, Marc'antonio","Brutti, Christoforo",Person_071,Indeterminate,For review multiple Christos: Nephew
-Person_050,"Borisi, Marc'antonio","Brutti, Giacoma ",Person_076,Parent,Mother
-Person_050,"Borisi, Marc'antonio","Piron, Alessandra",Person_287,Spouse,First Wife
-Person_055,"Borisi, Pietro II","Borisi, Alessandra",Person_043,Sibling,"sister, d. before 1641"
-Person_055,"Borisi, Pietro II","Borisi, Bernardo",Person_044,Child,son
-Person_055,"Borisi, Pietro II","Borisi, Francesco",Person_047,Child,son
-Person_055,"Borisi, Pietro II","Borisi, Marc'Antonio",Person_050,Child,"son, b. 6/30/1637, marries Venetian patrician Santa Bembo"
-Person_055,"Borisi, Pietro II","Borisi, Marc'Antonio [Dragoman grande]",Person_050,Parent,Father
-Person_055,"Borisi, Pietro II","Borisi, Maria",Person_051,Sibling,sister
-Person_055,"Borisi, Pietro II","Borisi, Marin",Person_052,Child,son
-Person_055,"Borisi, Pietro II","Grillo, Ambrogio",Person_194,Indeterminate,For review multiple Ambrogios: half-brother
-Person_055,"Borisi, Pietro II","Olivieri, Soprana Caterina",Person_280,Parent,mother
-Person_055,"Borisi, Pietro II","Verzi, Maria",Person_373,Spouse,wife
-Person_062,"Britanico, Zuane","Britanico, Simon",Person_061,Parent,Father
-Person_065,"Brutti, Barnabà [Bernardo","Brutti, Giacomo",Person_077,Parent,Father
-Person_065,"Brutti, Barnabà [Bernardo","Brutti, Pasqual [British dragoman in 1596]",Person_080,Indeterminate,
-Person_066,"Brutti, Bartolomeo (I)","Borisi, Piero",Person_054,Sibling,"For review multiple Pietros: brother in law, Giacoma's husband"
-Person_066,"Brutti, Bartolomeo (I)","Bruni, Maria",Person_063,Parent,mother
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Antonio",Person_064,Sibling,For review multiple Brutti Antonios: brother
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Antonio II [1518-1571]",Person_064,Parent,For review multiple Brutti Antonios: Father
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Barnabà",Person_065,Sibling,brother
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Benedetto",Person_069,Sibling,brother
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Christoforo",Person_071,Sibling,"For review multiple Christos: brother, d. 1592"
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Giacoma",Person_076,Sibling,sister
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Giacomo",Person_077,Sibling,"brother, 1536-1616"
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Ilarietta",Person_078,Sibling,"sister, b. 1556"
-Person_066,"Brutti, Bartolomeo (I)","Brutti, Marco",Person_079,Sibling,"brother, d. 1571"
-Person_066,"Brutti, Bartolomeo (I)","Carrerio, Demostene",Person_091,Sibling,"brother in law, Ilarietta's husband"
-Person_067,"Brutti, Bartolomeo (II)","Brutti, Barnabà",Person_065,Sibling,brother
-Person_067,"Brutti, Bartolomeo (II)","Brutti, Giacomo",Person_077,Parent,Father
-Person_071,"Brutti, Christoforo (I)","Brutti, Antonio",Person_064,Parent,For review multiple Brutti Antonios: Father  [died in Ven service during war]
-Person_071,"Brutti, Christoforo (I)","Brutti, Bartolomeo",Person_066,Sibling,For review multiple Barts: brother
-Person_072,"Brutti, Christoforo (II)","Borisi, Cecilia",Person_045,Spouse,"wife, daughter of grand dragoman Marc'Antonio, later wife of Pantaleone Mamuca della Torre"
-Person_072,"Brutti, Christoforo (II)","Borisi, Giacoma",Person_049,Indeterminate,aunt
-Person_072,"Brutti, Christoforo (II)","Borisi, Marc'Antonio",Person_050,Indeterminate,uncle/cousin
-Person_072,"Brutti, Christoforo (II)","Borisi, Pietro",Person_054,Indeterminate,For review multiple Pietros: uncle
-Person_072,"Brutti, Christoforo (II)","Brutti, Antonio",Person_064,Indeterminate,For review multiple Brutti Antonios: grandfather
-Person_072,"Brutti, Christoforo (II)","Brutti, Barnabà",Person_065,Indeterminate,cousin
-Person_072,"Brutti, Christoforo (II)","Brutti, Bartolomeo II",Person_067,Indeterminate,cousin
-Person_072,"Brutti, Christoforo (II)","Brutti, Benetto",Person_069,Parent,For review: Father
-Person_072,"Brutti, Christoforo (II)","Brutti, Cecilia",Person_070,Child,daughter
-Person_072,"Brutti, Christoforo (II)","Brutti, Christoforo III",Person_073,Child,son
-Person_072,"Brutti, Christoforo (II)","Brutti, Despina",Person_075,Child,daughter
-Person_072,"Brutti, Christoforo (II)",Despina,Person_138,Parent,mother
-Person_073,"Brutti, Christoforo (III)","Borisi, Cecilia",Person_045,Parent,mother
-Person_073,"Brutti, Christoforo (III)","Brutti, Christoforo II",Person_072,Parent,Father
-Person_073,"Brutti, Christoforo (III)","Mamuca della Torre, Marc'Antonio",Person_219,Sibling,"half-brother, imperial dragoman"
-Person_073,"Brutti, Christoforo (III)",sister,Person_073,Indeterminate,
-Person_074,"Brutti, Christoforo (IV)","Brutti, Barnabà",Person_065,Parent,Father
-Person_090,"Carli, Gian Rinaldo","Carli, Girolamo",Person_400,Parent,Father
-Person_090,"Carli, Gian Rinaldo","Tarsia, Christoforo",Person_333,Indeterminate,uncle
-Person_090,"Carli, Gian Rinaldo","Tarsia, Giacomo",Person_334,Indeterminate,cousin
-Person_090,"Carli, Gian Rinaldo","Tarsia, Tommaso",Person_342,Indeterminate,cousin
-Person_098,"Civran, Girolamo","Civran, Donato",Person_096,Child,son
-Person_098,"Civran, Girolamo","Civran, Francesco",Person_097,Child,son
-Person_112,"Coressi, Bartolomea","Navon, Tommaso (I)",Person_267,Child,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
-Person_121,"Corressi, Niccolò","Navon, Francesca",Person_261,Spouse,wife
-Person_121,"Corressi, Niccolò","Navon, Pasqual (I)",Person_265,Indeterminate,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"". Relationship is ""Father in Law"" in original data."
-Person_122,"Cortivo, Sebastiano del","Cortivo, Domenico del",Person_CORTIVODOM,Parent,Father
-Person_126,"Damiani, Paolo",Christoforo,Person_CHRISTOFORO,Parent,For review the actual Christoforo: Father
-Person_126,"Damiani, Paolo",Givoanni,Person_GIOVANNI,Sibling,brother
-Person_149,"Emanuel, Filippo","Emanuel, Felice",Person_148,Spouse,wife
-Person_149,"Emanuel, Filippo","Emanuel, Gerolamo",Person_150,Sibling,brother
-Person_149,"Emanuel, Filippo","Emanuel, Millisina",Person_151,Parent,mother
-Person_149,"Emanuel, Filippo","Membre, Michiel",Person_237,Indeterminate,uncle
-Person_160,"Fontana, ? f. Antonio","Fontana, Antonio",Person_160,Parent,Father
-Person_163,"Fortis, Alvise","Fortis, Giacomo",Person_162,Sibling,For review multiple Giacomos: brother
-Person_163,"Fortis, Alvise","Fortis, Pietro",Person_166,Parent,Father
-Person_164,"Fortis, Giacomo (I)","Fortis, Pietro",Person_166,Sibling,brother
-Person_165,"Fortis, Giacomo (II)","Fortis, Pietro",Person_166,Parent,Father
-Person_166,"Fortis, Pietro","Forits, Giacomo",Person_162,Child,For review multiple Giacomos: son
-Person_166,"Fortis, Pietro","Fortis, Alvise",Person_163,Child,son
-Person_166,"Fortis, Pietro","Fortis, Giacomo",Person_162,Sibling,For review multiple Giacomos: brother
-Person_166,"Fortis, Pietro","Fortis, Stefano",Person_167,Child,son
-Person_181,"Gioveni, Stefano di","Gioveni, Giacomo di",Person_GIOVENIGIACOMO,Parent,Father
-Person_182,"Girachi, Giorgio","Geraci, Tomaso [Genoese dragoman, ca. 1670 - see Pastine 1952: 98]",Person_180,Indeterminate,
-Person_195,"Grillo, Ambrogio (II)","Grillo, Battestina",Person_197,Sibling,sister
-Person_195,"Grillo, Ambrogio (II)","Grillo, Cassandra",Person_198,Spouse,wife
-Person_195,"Grillo, Ambrogio (II)","Grillo, Giovanni Antonio",Person_201,Parent,Father
-Person_195,"Grillo, Ambrogio (II)","Grillo, Tommaso",Person_202,Child,son
-Person_196,"Grillo, Ambrosio (I)","Grillo, Agustin",Person_193,Child,son
-Person_196,"Grillo, Ambrosio (I)","Grillo, Francesco",Person_199,Sibling,"brother, merchant b/w Levant and Venice, died young without children"
-Person_196,"Grillo, Ambrosio (I)","Grillo, Giacomo [1580: elected sub-prior of Magnifica Comunita",Person_GRILLOGIACOMO,Parent,Father
-Person_196,"Grillo, Ambrosio (I)","Grillo, Giovanni Antonio",Person_201,Child,son
-Person_201,"Grillo, Giovanni Antonio","Grillo, Ambrogio",Person_194,Child,For review multiple Ambrogios: son
-Person_201,"Grillo, Giovanni Antonio","Grillo, Ambrosio",Person_196,Parent,Father
-Person_201,"Grillo, Giovanni Antonio","Grillo, Gioia",Person_200,Child,"daughter, d. 1658"
-Person_201,"Grillo, Giovanni Antonio",Navon,Person_NAVON,Child,For review no other Navon information: son in law
-Person_201,"Grillo, Giovanni Antonio","Vecchia, Paulo",Person_358,Child,son in law
-Person_208,"Jona, Marco Moise","Jona, Calirvan",Person_JONA,Parent,Father
-Person_212,"Logoteti, Michiel","Essaudinos, Gio: Battista",Person_157,Indeterminate,daughter's son
-Person_225,"Marucini, Gio: Francesco","Marucini, Lorenzo",Person_227,Parent,Father
-Person_226,"Marucini, Lodovico","Marucini, Baldissera",Person_224,Sibling,brother
-Person_226,"Marucini, Lodovico","Marucini, Gio: Francesco",Person_225,Parent,Father
-Person_226,"Marucini, Lodovico","Marucini, Lorenzo",Person_227,Sibling,brother
-Person_226,"Marucini, Lodovico","Marucini, Matteo",Person_229,Sibling,brother
-Person_229,"Marucini, Matteo","Marucini, Baldissera",Person_224,Sibling,brother
-Person_229,"Marucini, Matteo","Marucini, Gio: Francesco",Person_225,Indeterminate,nephew
-Person_229,"Marucini, Matteo","Marucini, Gio. Francesco",Person_225,Parent,Father
-Person_229,"Marucini, Matteo","Marucini, Lodovico",Person_226,Child,illegitimate son
-Person_229,"Marucini, Matteo","Marucini, Lorenzo",Person_227,Sibling,brother
-Person_229,"Marucini, Matteo","Marucini, Ludovico",Person_228,Sibling,brother
-Person_233,"Mascellini, Francesco","Mascellini, Anna",Person_232,Child,daughter?
-Person_233,"Mascellini, Francesco","Mascellini, Gianesina",Person_234,Child,daughter?
-Person_233,"Mascellini, Francesco","Mascellini, Giovanni",Person_235,Parent,Father
-Person_233,"Mascellini, Francesco","Mascellini, Giovanni",Person_235,Child,"son?, Ven. pubblico dragomano who translated doc from Greek to Italian ca. 1748, father of 3 Ven GdLs/Dragomans in later 18th c: Giovanni Battista, Paolo, and Mario"
-Person_233,"Mascellini, Francesco","Mascellini, Laura",Person_236,Sibling,"sister, wife of Giacomo Tarsia"
-Person_233,"Mascellini, Francesco","Scoccardi, Gioia",Person_324,Parent,mother
-Person_259,"Navon, Alessandro","Navon, Gio: Battista (I)",Person_262,Parent,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"""
-Person_259,"Navon, Alessandro","Navon, Pasqual (I)",Person_265,Indeterminate,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"" - Relationship is ""grandfather"" in original data"
-Person_259,"Navon, Alessandro","Navon, Tommaso (I)",Person_267,Indeterminate,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"". Relationship is ""Uncle"" in original data"
-Person_259,"Navon, Alessandro","Navon, Tommaso (I)",Person_267,Sibling,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
-Person_262,"Navon, Gio: Battista (I)","Coressi, Bartolomea",Person_112,Spouse,wife
-Person_262,"Navon, Gio: Battista (I)","Navon, Alessandro",Person_259,Child,son
-Person_262,"Navon, Gio: Battista (I)","Navon, Giovanni Battista",Person_264,Child,son
-Person_262,"Navon, Gio: Battista (I)","Navon, Pasqual (I)",Person_265,Parent,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"""
-Person_262,"Navon, Gio: Battista (I)","Navon, Pasqual (I)",Person_265,Child,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"""
-Person_262,"Navon, Gio: Battista (I)","Navon, Tommaso (I)",Person_267,Sibling,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"" - relationship is stated as ""older brother"""
-Person_262,"Navon, Gio: Battista (I)","Navon, Tommaso (I)",Person_267,Child,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
-Person_265,"Navon, Pasqual (I)","Coressi, Francesca",Person_113,Child,daughter
-Person_265,"Navon, Pasqual (I)","Coressi, Nicolo",Person_114,Child,For review multiple Nicolo Niccolos: son-in-law
-Person_265,"Navon, Pasqual (I)","Navon, Gio: Battista (I)",Person_262,Child,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"""
-Person_265,"Navon, Pasqual (I)","Navon, Tommaso (I)",Person_267,Child,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
-Person_265,"Navon, Pasqual (I)","Navone, Negron",Person_NAVONE,Parent,Father
-Person_266,"Navon, Pasqual (II)","Coressi, Bartolomea",Person_112,Parent,mother
-Person_266,"Navon, Pasqual (II)","Navon, Gio: Battista (I)",Person_262,Parent,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"""
-Person_266,"Navon, Pasqual (II)","Navon, Tommaso (I)",Person_267,Sibling,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
-Person_267,"Navon, Tommaso (I)","Navon, Gio: Battista (I)",Person_262,Indeterminate,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"". Relationship reads ""Younger Brother"" in original notes"
-Person_267,"Navon, Tommaso (I)","Navon, Pasqual (I)",Person_265,Parent,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"""
-Person_268,"Navon, Tommaso (II)","Navon, Gio: Battista (I)",Person_262,Indeterminate,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"" Other note reads: brother, dragoman grande, d. 1715"
-Person_268,"Navon, Tommaso (II)","Navon, Gio: Battista (I)",Person_262,Parent,Father
-Person_268,"Navon, Tommaso (II)","Navon, Pasqual (I)",Person_265,Indeterminate,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"" - relationship is ""=Pacha"" in original data"
-Person_268,"Navon, Tommaso (II)","Testa, Susanna",Person_394,Spouse,wife
-Person_271,"Nicolini, Pietro","Nicolini, Simon",Person_272,Parent,Father
-Person_272,"Nicolini, Simon","Nicolich, Pietro",Person_NICOLICH,Parent,Father
-Person_273,"Nores, Giacomo de","Nores, Pietro di",Person_274,Parent,father
-Person_273,"Nores, Giacomo de","Podocataro, Livio",Person_294,Indeterminate,maternal grandfather
-Person_275,"Olivieri, Antonio","Olivieri, Giovanni",Person_278,Parent,Father
-Person_278,"Olivieri, Giovanni","Olivieri, Antonio",Person_275,Child,son
-Person_278,"Olivieri, Giovanni","Olivieri, Caterina",Person_276,Sibling,sister
-Person_278,"Olivieri, Giovanni","Olivieri, Domenico",Person_277,Indeterminate,? 1574 appointed dragoman of French ambassador - Pippidi 1980: 135
-Person_278,"Olivieri, Giovanni","Olivieri, Olivier",Person_279,Indeterminate,1605: elected prior of Magnifica Comunita
-Person_282,"Pace, Marco","Pace, Girolamo",Person_281,Parent,Father
-Person_285,"Parada, Michiel","Parada, Ippolito",Person_284,Parent,For review: Question mark in original data
-Person_286,"Perone, Giovanni","Piron, Antonio",Person_288,Sibling,brother
-Person_286,"Perone, Giovanni","Piron, Domenico",Person_289,Sibling,brother
-Person_286,"Perone, Giovanni","Piron, Nicolò",Person_290,Sibling,"brother, dragoman, died in service c. 1640"
-Person_286,"Perone, Giovanni","Piron, Stefano",Person_STEFANOPIRON,Parent,Father
-Person_286,"Perone, Giovanni","Pirona, Maria",Person_291,Parent,mother
-Person_312,"Salvago, Gianesin (I)","Salvago, Mateca",Person_317,Child,son
-Person_313,"Salvago, Gianesin (II)","Salvago, Benetto",Person_311,Sibling,brother
-Person_313,"Salvago, Gianesin (II)","Salvago, Gio: Battista",Person_314,Sibling,young brother
-Person_313,"Salvago, Gianesin (II)","Salvago, Giuliano",Person_316,Sibling,brother
-Person_313,"Salvago, Gianesin (II)","Salvago, Mateca",Person_317,Parent,Father
-Person_314,"Salvago, Gio: Battista","Bon, Andrea",Person_037,Indeterminate,cousin
-Person_314,"Salvago, Gio: Battista","Salvago, Benetto",Person_311,Sibling,brother
-Person_314,"Salvago, Gio: Battista","Salvago, Gianesin (I)",Person_312,Sibling,For review: Mapped to (I) could be (I) or (II) (unclear in data)
-Person_314,"Salvago, Gio: Battista","Salvago, Gioia",Person_315,Indeterminate,"niece - see: Bertelè 1932: 149-150, 231: n9"
-Person_314,"Salvago, Gio: Battista","Salvago, Giuliano",Person_316,Sibling,brother
-Person_314,"Salvago, Gio: Battista","Salvago, Mateca",Person_317,Parent,Father
-Person_314,"Salvago, Gio: Battista","Salvago, Sebastian",Person_318,Child,"possibly son - see: Bertele 149-150, 231: n8"
-Person_316,"Salvago, Giuliano","Salvago, Gianesin (I)",Person_312,Sibling,For review: Mapped to (I) could be (I) or (II) (unclear in data)
-Person_316,"Salvago, Giuliano","Salvago, Gio: Battista",Person_314,Sibling,brother
-Person_316,"Salvago, Giuliano","Salvago, Mateca",Person_317,Parent,"For review: Data said Salvago, Matheca, mapped to Salvago, Mateca for now. Same person?"
-Person_317,"Salvago, Mateca","Salvago, Gianesin (I)",Person_312,Child,For review: Mapped to (I) could be (I) or (II) (unclear in data)
-Person_317,"Salvago, Mateca","Salvago, Gio: Battista",Person_314,Child,"Data said Salvago, Giovanni Battista. Mapped to Salvago, Gio: Battista"
-Person_317,"Salvago, Mateca","Salvago, Giuliano",Person_316,Child,son
-Person_317,"Salvago, Mateca","Salvego, Gianesin",Person_399,Parent,Father
-Person_320,"Scaramelli, Francesco","Scaramelli, Giovanni Carlo",Person_398,Parent,Father
-Person_320,"Scaramelli, Francesco","Scaramelli, Isabetta",Person_321,Parent,mother
-Person_322,"Scassi, Marco di","Scassi, Bartolomeo di",Person_397,Parent,Father
-Person_329,"Spinelli, Marchiò","Spinelli, Gasparo",Person_395,Parent,Father
-Person_333,"Tarsia, Christoforo","Tarsia, Angela",Person_332,Child,daughter
-Person_333,"Tarsia, Christoforo","Tarsia, Giacomo",Person_334,Child,son
-Person_333,"Tarsia, Christoforo","Tarsia, Giustiniana",Person_336,Child,"daughter, wife of Marc'Antonio Mamuca della Torre"
-Person_333,"Tarsia, Christoforo","Tarsia, Leonardo",Person_337,Child,son
-Person_333,"Tarsia, Christoforo","Tarsia, Marco",Person_338,Sibling,brother
-Person_333,"Tarsia, Christoforo","Tarsia, Ruggiero",Person_339,Sibling,brother
-Person_333,"Tarsia, Christoforo","Tarsia, Tommaso",Person_342,Child,son
-Person_334,"Tarsia, Giacomo","Mascellini, Laura",Person_236,Spouse,"wife, daughter of Gioia Scoccardi/Skovgaard and Giovanni Mascellini"
-Person_334,"Tarsia, Giacomo","Tarsia, Christoforo",Person_333,Parent,Father
-Person_334,"Tarsia, Giacomo","Tarsia, Leonardo",Person_337,Sibling,brother
-Person_334,"Tarsia, Giacomo","Tarsia, Tomaso",Person_341,Sibling,brother
-Person_335,"Tarsia, Gio: Domenico","Capello, Laura",Person_082,Spouse,wife
-Person_336,"Tarsia, Giustiniana",Marc'Antonio Mamuca della Torre,Person_219,Spouse,Husband
-Person_337,"Tarsia, Leonardo","Tarsia, Christoforo",Person_333,Parent,Father
-Person_337,"Tarsia, Leonardo","Tarsia, Giacomo",Person_334,Sibling,brother
-Person_337,"Tarsia, Leonardo","Tarsia, Tommaso",Person_342,Sibling,brother
-Person_338,"Tarsia, Marco","Tarsia, Christoforo",Person_333,Sibling,brother
-Person_338,"Tarsia, Marco","Tarsia, Rugier",Person_340,Sibling,brother
-Person_339,"Tarsia, Ruggiero","Taria, Christoforo",Person_333,Sibling,brother
-Person_341,"Tarsia, Tomaso","Rinaldo, Carli",Person_305,Indeterminate,cousin
-Person_341,"Tarsia, Tomaso","Tarsia, Christoforo",Person_333,Parent,Father
-Person_341,"Tarsia, Tomaso","Tarsia, Giacomo",Person_334,Sibling,brother
-Person_345,"Torre, Antonio","Torre, Mattio ",Person_393,Sibling,brother
-Person_347,"Tosi, Faustino","Tosi, Simone",Person_392,Parent,Father
-Person_358,"Vecchia, Paolo","Grillo, Giovanni Antonio",Person_201,Indeterminate,wife's father
-Person_358,"Vecchia, Paolo","Vecchia, Andrea",Person_355,Sibling,brother
-Person_358,"Vecchia, Paolo","Vecchia, Cassandra",Person_356,Sibling,sister
-Person_358,"Vecchia, Paolo","Vecchia, fra Paulo",Person_357,Indeterminate,nipote
-Person_358,"Vecchia, Paolo","Vecchia, Gabriel",Person_391,Parent,Father
-Person_361,"Velutello, Marco Antonio","Velutello, Piladi",Person_362,Sibling,brother
+person_id,p2p_id,person_name,related_person_name,related_person_id,role,notes
+Person_001,PersonPerson0001,"Agapito, Gabriel","Agapito, ? [medico]",Person_002,Parent,Father
+Person_003,PersonPerson0002,"Aggiondrite, Andrea","Aggiondrite, Zuane",Person_004,Child,Son
+Person_004,PersonPerson0003,"Aggiondrite, Zuanne","Aggiondrite, Andrea",Person_003,Parent,Father
+Person_006,PersonPerson0004,"Alberti, Girolamo","Alberti, Gasparo",Person_005,Parent,Father
+Person_006,PersonPerson0005,"Alberti, Girolamo","Alberto, Marina",Person_007,Spouse,Wife
+Person_009,PersonPerson0006,"Ambrosio, Filippo de","Ceroyco, Ambrosio",Person_095,Parent,Father
+Person_016,PersonPerson0007,"Ausonio, Giulio",Polisotra,Person_295,Parent,Mother
+Person_020,PersonPerson0008,"Balsarini, Carlo","Balsarini, Domenico",Person_021,Sibling,Brother
+Person_020,PersonPerson0009,"Balsarini, Carlo","Balsarini, Giacomo",Person_022,Parent,Father
+Person_021,PersonPerson0010,"Balsarini, Domenico","Balsarini, Carlo",Person_020,Sibling,Brother
+Person_021,PersonPerson0011,"Balsarini, Domenico","Balsarini, Giacomo",Person_022,Parent,Father
+Person_022,PersonPerson0012,"Balsarini, Giacomo","Balsarini, Carlo",Person_020,Child,Son?
+Person_022,PersonPerson0013,"Balsarini, Giacomo","Balsarini, Domenico",Person_021,Child,Son
+Person_037,PersonPerson0014,"Bon, Andrea","Bonà, Gio: Maria",Person_040,Parent,Father?
+Person_037,PersonPerson0015,"Bon, Andrea","Salvago, Gio: Battista",Person_314,Indeterminate,Cousin
+Person_039,PersonPerson0016,"Bonà, Christoforo di","Bonà, Gio: Maria",Person_040,Child,Son
+Person_040,PersonPerson0017,"Bonà, Gio: Maria","Bon, Andrea",Person_037,Child,Son?
+Person_040,PersonPerson0018,"Bonà, Gio: Maria","Bonà, Christofero di",Person_039,Parent,"For review: Linked to Bonà, Christoforo di - different person?"
+Person_045,PersonPerson0019,"Borisi, Cecilia","Brutti, Christoforo II",Person_072,Spouse,Husband
+Person_045,PersonPerson0020,"Borisi, Cecilia",Panteleone Mamuca delle Torre,Person_PANTELEONE,Spouse,Husband
+Person_046,PersonPerson0021,"Borisi, Francesca",Asanina,Person_ASANINA,Child,For review: Child
+Person_046,PersonPerson0022,"Borisi, Francesca",Gioia,Person_GIOIA,Parent,Mother
+Person_046,PersonPerson0023,"Borisi, Francesca","Mascellini, Giovanni",Person_235,Spouse,"Mapped in this fashion, but original data said: ""Mascellini, Giovanni of Peraro"""
+Person_046,PersonPerson0024,"Borisi, Francesca",Pellegrino (Fortuna) Testa,Person_PELLEGRINO,Spouse,Husband
+Person_046,PersonPerson0025,"Borisi, Francesca","Skovgaard, Hans Andersen",Person_396,Spouse,Husband
+Person_048,PersonPerson0026,"Borisi, Franeschina",Count Gravisi,Person_COUNTGRAVISI,Spouse,Husband
+Person_050,PersonPerson0027,"Borisi, Marc'antonio","Borisi, Bernardo",Person_044,Sibling,Brother
+Person_050,PersonPerson0028,"Borisi, Marc'antonio","Borisi, Cecilia",Person_045,Child,Daughter
+Person_050,PersonPerson0029,"Borisi, Marc'antonio","Borisi, Francesca",Person_046,Child,Daughter
+Person_050,PersonPerson0030,"Borisi, Marc'antonio","Borisi, Francesco",Person_047,Sibling,Brother
+Person_050,PersonPerson0031,"Borisi, Marc'antonio","Borisi, Franeschina",Person_048,Sibling,Sister
+Person_050,PersonPerson0032,"Borisi, Marc'antonio","Borisi, Giacoma",Person_049,Child,Daughter
+Person_050,PersonPerson0033,"Borisi, Marc'antonio","Brutti, Christoforo",Person_071,Indeterminate,For review multiple Christos: Uncle
+Person_050,PersonPerson0034,"Borisi, Marc'antonio","Brutti, Christoforo",Person_071,Indeterminate,For review multiple Christos: Nephew
+Person_050,PersonPerson0035,"Borisi, Marc'antonio","Brutti, Giacoma ",Person_076,Parent,Mother
+Person_050,PersonPerson0036,"Borisi, Marc'antonio","Piron, Alessandra",Person_287,Spouse,First Wife
+Person_055,PersonPerson0037,"Borisi, Pietro II","Borisi, Alessandra",Person_043,Sibling,"sister, d. before 1641"
+Person_055,PersonPerson0038,"Borisi, Pietro II","Borisi, Bernardo",Person_044,Child,son
+Person_055,PersonPerson0039,"Borisi, Pietro II","Borisi, Francesco",Person_047,Child,son
+Person_055,PersonPerson0040,"Borisi, Pietro II","Borisi, Marc'Antonio",Person_050,Child,"son, b. 6/30/1637, marries Venetian patrician Santa Bembo"
+Person_055,PersonPerson0041,"Borisi, Pietro II","Borisi, Marc'Antonio [Dragoman grande]",Person_050,Parent,Father
+Person_055,PersonPerson0042,"Borisi, Pietro II","Borisi, Maria",Person_051,Sibling,sister
+Person_055,PersonPerson0043,"Borisi, Pietro II","Borisi, Marin",Person_052,Child,son
+Person_055,PersonPerson0044,"Borisi, Pietro II","Grillo, Ambrogio",Person_194,Indeterminate,For review multiple Ambrogios: half-brother
+Person_055,PersonPerson0045,"Borisi, Pietro II","Olivieri, Soprana Caterina",Person_280,Parent,mother
+Person_055,PersonPerson0046,"Borisi, Pietro II","Verzi, Maria",Person_373,Spouse,wife
+Person_062,PersonPerson0047,"Britanico, Zuane","Britanico, Simon",Person_061,Parent,Father
+Person_065,PersonPerson0048,"Brutti, Barnabà [Bernardo","Brutti, Giacomo",Person_077,Parent,Father
+Person_065,PersonPerson0049,"Brutti, Barnabà [Bernardo","Brutti, Pasqual [British dragoman in 1596]",Person_080,Indeterminate,
+Person_066,PersonPerson0050,"Brutti, Bartolomeo (I)","Borisi, Piero",Person_054,Sibling,"For review multiple Pietros: brother in law, Giacoma's husband"
+Person_066,PersonPerson0051,"Brutti, Bartolomeo (I)","Bruni, Maria",Person_063,Parent,mother
+Person_066,PersonPerson0052,"Brutti, Bartolomeo (I)","Brutti, Antonio",Person_064,Sibling,For review multiple Brutti Antonios: brother
+Person_066,PersonPerson0053,"Brutti, Bartolomeo (I)","Brutti, Antonio II [1518-1571]",Person_064,Parent,For review multiple Brutti Antonios: Father
+Person_066,PersonPerson0054,"Brutti, Bartolomeo (I)","Brutti, Barnabà",Person_065,Sibling,brother
+Person_066,PersonPerson0055,"Brutti, Bartolomeo (I)","Brutti, Benedetto",Person_069,Sibling,brother
+Person_066,PersonPerson0056,"Brutti, Bartolomeo (I)","Brutti, Christoforo",Person_071,Sibling,"For review multiple Christos: brother, d. 1592"
+Person_066,PersonPerson0057,"Brutti, Bartolomeo (I)","Brutti, Giacoma",Person_076,Sibling,sister
+Person_066,PersonPerson0058,"Brutti, Bartolomeo (I)","Brutti, Giacomo",Person_077,Sibling,"brother, 1536-1616"
+Person_066,PersonPerson0059,"Brutti, Bartolomeo (I)","Brutti, Ilarietta",Person_078,Sibling,"sister, b. 1556"
+Person_066,PersonPerson0060,"Brutti, Bartolomeo (I)","Brutti, Marco",Person_079,Sibling,"brother, d. 1571"
+Person_066,PersonPerson0061,"Brutti, Bartolomeo (I)","Carrerio, Demostene",Person_091,Sibling,"brother in law, Ilarietta's husband"
+Person_067,PersonPerson0062,"Brutti, Bartolomeo (II)","Brutti, Barnabà",Person_065,Sibling,brother
+Person_067,PersonPerson0063,"Brutti, Bartolomeo (II)","Brutti, Giacomo",Person_077,Parent,Father
+Person_071,PersonPerson0064,"Brutti, Christoforo (I)","Brutti, Antonio",Person_064,Parent,For review multiple Brutti Antonios: Father  [died in Ven service during war]
+Person_071,PersonPerson0065,"Brutti, Christoforo (I)","Brutti, Bartolomeo",Person_066,Sibling,For review multiple Barts: brother
+Person_072,PersonPerson0066,"Brutti, Christoforo (II)","Borisi, Cecilia",Person_045,Spouse,"wife, daughter of grand dragoman Marc'Antonio, later wife of Pantaleone Mamuca della Torre"
+Person_072,PersonPerson0067,"Brutti, Christoforo (II)","Borisi, Giacoma",Person_049,Indeterminate,aunt
+Person_072,PersonPerson0068,"Brutti, Christoforo (II)","Borisi, Marc'Antonio",Person_050,Indeterminate,uncle/cousin
+Person_072,PersonPerson0069,"Brutti, Christoforo (II)","Borisi, Pietro",Person_054,Indeterminate,For review multiple Pietros: uncle
+Person_072,PersonPerson0070,"Brutti, Christoforo (II)","Brutti, Antonio",Person_064,Indeterminate,For review multiple Brutti Antonios: grandfather
+Person_072,PersonPerson0071,"Brutti, Christoforo (II)","Brutti, Barnabà",Person_065,Indeterminate,cousin
+Person_072,PersonPerson0072,"Brutti, Christoforo (II)","Brutti, Bartolomeo II",Person_067,Indeterminate,cousin
+Person_072,PersonPerson0073,"Brutti, Christoforo (II)","Brutti, Benetto",Person_069,Parent,For review: Father
+Person_072,PersonPerson0074,"Brutti, Christoforo (II)","Brutti, Cecilia",Person_070,Child,daughter
+Person_072,PersonPerson0075,"Brutti, Christoforo (II)","Brutti, Christoforo III",Person_073,Child,son
+Person_072,PersonPerson0076,"Brutti, Christoforo (II)","Brutti, Despina",Person_075,Child,daughter
+Person_072,PersonPerson0077,"Brutti, Christoforo (II)",Despina,Person_138,Parent,mother
+Person_073,PersonPerson0078,"Brutti, Christoforo (III)","Borisi, Cecilia",Person_045,Parent,mother
+Person_073,PersonPerson0079,"Brutti, Christoforo (III)","Brutti, Christoforo II",Person_072,Parent,Father
+Person_073,PersonPerson0080,"Brutti, Christoforo (III)","Mamuca della Torre, Marc'Antonio",Person_219,Sibling,"half-brother, imperial dragoman"
+Person_073,PersonPerson0081,"Brutti, Christoforo (III)",sister,Person_073,Indeterminate,
+Person_074,PersonPerson0082,"Brutti, Christoforo (IV)","Brutti, Barnabà",Person_065,Parent,Father
+Person_090,PersonPerson0083,"Carli, Gian Rinaldo","Carli, Girolamo",Person_400,Parent,Father
+Person_090,PersonPerson0084,"Carli, Gian Rinaldo","Tarsia, Christoforo",Person_333,Indeterminate,uncle
+Person_090,PersonPerson0085,"Carli, Gian Rinaldo","Tarsia, Giacomo",Person_334,Indeterminate,cousin
+Person_090,PersonPerson0086,"Carli, Gian Rinaldo","Tarsia, Tommaso",Person_342,Indeterminate,cousin
+Person_098,PersonPerson0087,"Civran, Girolamo","Civran, Donato",Person_096,Child,son
+Person_098,PersonPerson0088,"Civran, Girolamo","Civran, Francesco",Person_097,Child,son
+Person_112,PersonPerson0089,"Coressi, Bartolomea","Navon, Tommaso (I)",Person_267,Child,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
+Person_121,PersonPerson0090,"Corressi, Niccolò","Navon, Francesca",Person_261,Spouse,wife
+Person_121,PersonPerson0091,"Corressi, Niccolò","Navon, Pasqual (I)",Person_265,Indeterminate,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"". Relationship is ""Father in Law"" in original data."
+Person_122,PersonPerson0092,"Cortivo, Sebastiano del","Cortivo, Domenico del",Person_CORTIVODOM,Parent,Father
+Person_126,PersonPerson0093,"Damiani, Paolo",Christoforo,Person_CHRISTOFORO,Parent,For review the actual Christoforo: Father
+Person_126,PersonPerson0094,"Damiani, Paolo",Givoanni,Person_GIOVANNI,Sibling,brother
+Person_149,PersonPerson0095,"Emanuel, Filippo","Emanuel, Felice",Person_148,Spouse,wife
+Person_149,PersonPerson0096,"Emanuel, Filippo","Emanuel, Gerolamo",Person_150,Sibling,brother
+Person_149,PersonPerson0097,"Emanuel, Filippo","Emanuel, Millisina",Person_151,Parent,mother
+Person_149,PersonPerson0098,"Emanuel, Filippo","Membre, Michiel",Person_237,Indeterminate,uncle
+Person_160,PersonPerson0099,"Fontana, ? f. Antonio","Fontana, Antonio",Person_160,Parent,Father
+Person_163,PersonPerson0100,"Fortis, Alvise","Fortis, Giacomo",Person_162,Sibling,For review multiple Giacomos: brother
+Person_163,PersonPerson0101,"Fortis, Alvise","Fortis, Pietro",Person_166,Parent,Father
+Person_164,PersonPerson0102,"Fortis, Giacomo (I)","Fortis, Pietro",Person_166,Sibling,brother
+Person_165,PersonPerson0103,"Fortis, Giacomo (II)","Fortis, Pietro",Person_166,Parent,Father
+Person_166,PersonPerson0104,"Fortis, Pietro","Forits, Giacomo",Person_162,Child,For review multiple Giacomos: son
+Person_166,PersonPerson0105,"Fortis, Pietro","Fortis, Alvise",Person_163,Child,son
+Person_166,PersonPerson0106,"Fortis, Pietro","Fortis, Giacomo",Person_162,Sibling,For review multiple Giacomos: brother
+Person_166,PersonPerson0107,"Fortis, Pietro","Fortis, Stefano",Person_167,Child,son
+Person_181,PersonPerson0108,"Gioveni, Stefano di","Gioveni, Giacomo di",Person_GIOVENIGIACOMO,Parent,Father
+Person_182,PersonPerson0109,"Girachi, Giorgio","Geraci, Tomaso [Genoese dragoman, ca. 1670 - see Pastine 1952: 98]",Person_180,Indeterminate,
+Person_195,PersonPerson0110,"Grillo, Ambrogio (II)","Grillo, Battestina",Person_197,Sibling,sister
+Person_195,PersonPerson0111,"Grillo, Ambrogio (II)","Grillo, Cassandra",Person_198,Spouse,wife
+Person_195,PersonPerson0112,"Grillo, Ambrogio (II)","Grillo, Giovanni Antonio",Person_201,Parent,Father
+Person_195,PersonPerson0113,"Grillo, Ambrogio (II)","Grillo, Tommaso",Person_202,Child,son
+Person_196,PersonPerson0114,"Grillo, Ambrosio (I)","Grillo, Agustin",Person_193,Child,son
+Person_196,PersonPerson0115,"Grillo, Ambrosio (I)","Grillo, Francesco",Person_199,Sibling,"brother, merchant b/w Levant and Venice, died young without children"
+Person_196,PersonPerson0116,"Grillo, Ambrosio (I)","Grillo, Giacomo [1580: elected sub-prior of Magnifica Comunita",Person_GRILLOGIACOMO,Parent,Father
+Person_196,PersonPerson0117,"Grillo, Ambrosio (I)","Grillo, Giovanni Antonio",Person_201,Child,son
+Person_201,PersonPerson0118,"Grillo, Giovanni Antonio","Grillo, Ambrogio",Person_194,Child,For review multiple Ambrogios: son
+Person_201,PersonPerson0119,"Grillo, Giovanni Antonio","Grillo, Ambrosio",Person_196,Parent,Father
+Person_201,PersonPerson0120,"Grillo, Giovanni Antonio","Grillo, Gioia",Person_200,Child,"daughter, d. 1658"
+Person_201,PersonPerson0121,"Grillo, Giovanni Antonio",Navon,Person_NAVON,Child,For review no other Navon information: son in law
+Person_201,PersonPerson0122,"Grillo, Giovanni Antonio","Vecchia, Paulo",Person_358,Child,son in law
+Person_208,PersonPerson0123,"Jona, Marco Moise","Jona, Calirvan",Person_JONA,Parent,Father
+Person_212,PersonPerson0124,"Logoteti, Michiel","Essaudinos, Gio: Battista",Person_157,Indeterminate,daughter's son
+Person_225,PersonPerson0125,"Marucini, Gio: Francesco","Marucini, Lorenzo",Person_227,Parent,Father
+Person_226,PersonPerson0126,"Marucini, Lodovico","Marucini, Baldissera",Person_224,Sibling,brother
+Person_226,PersonPerson0127,"Marucini, Lodovico","Marucini, Gio: Francesco",Person_225,Parent,Father
+Person_226,PersonPerson0128,"Marucini, Lodovico","Marucini, Lorenzo",Person_227,Sibling,brother
+Person_226,PersonPerson0129,"Marucini, Lodovico","Marucini, Matteo",Person_229,Sibling,brother
+Person_229,PersonPerson0130,"Marucini, Matteo","Marucini, Baldissera",Person_224,Sibling,brother
+Person_229,PersonPerson0131,"Marucini, Matteo","Marucini, Gio: Francesco",Person_225,Indeterminate,nephew
+Person_229,PersonPerson0132,"Marucini, Matteo","Marucini, Gio. Francesco",Person_225,Parent,Father
+Person_229,PersonPerson0133,"Marucini, Matteo","Marucini, Lodovico",Person_226,Child,illegitimate son
+Person_229,PersonPerson0134,"Marucini, Matteo","Marucini, Lorenzo",Person_227,Sibling,brother
+Person_229,PersonPerson0135,"Marucini, Matteo","Marucini, Ludovico",Person_228,Sibling,brother
+Person_233,PersonPerson0136,"Mascellini, Francesco","Mascellini, Anna",Person_232,Child,daughter?
+Person_233,PersonPerson0137,"Mascellini, Francesco","Mascellini, Gianesina",Person_234,Child,daughter?
+Person_233,PersonPerson0138,"Mascellini, Francesco","Mascellini, Giovanni",Person_235,Parent,Father
+Person_233,PersonPerson0139,"Mascellini, Francesco","Mascellini, Giovanni",Person_235,Child,"son?, Ven. pubblico dragomano who translated doc from Greek to Italian ca. 1748, father of 3 Ven GdLs/Dragomans in later 18th c: Giovanni Battista, Paolo, and Mario"
+Person_233,PersonPerson0140,"Mascellini, Francesco","Mascellini, Laura",Person_236,Sibling,"sister, wife of Giacomo Tarsia"
+Person_233,PersonPerson0141,"Mascellini, Francesco","Scoccardi, Gioia",Person_324,Parent,mother
+Person_259,PersonPerson0142,"Navon, Alessandro","Navon, Gio: Battista (I)",Person_262,Parent,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"""
+Person_259,PersonPerson0143,"Navon, Alessandro","Navon, Pasqual (I)",Person_265,Indeterminate,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"" - Relationship is ""grandfather"" in original data"
+Person_259,PersonPerson0144,"Navon, Alessandro","Navon, Tommaso (I)",Person_267,Indeterminate,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"". Relationship is ""Uncle"" in original data"
+Person_259,PersonPerson0145,"Navon, Alessandro","Navon, Tommaso (I)",Person_267,Sibling,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
+Person_262,PersonPerson0146,"Navon, Gio: Battista (I)","Coressi, Bartolomea",Person_112,Spouse,wife
+Person_262,PersonPerson0147,"Navon, Gio: Battista (I)","Navon, Alessandro",Person_259,Child,son
+Person_262,PersonPerson0148,"Navon, Gio: Battista (I)","Navon, Giovanni Battista",Person_264,Child,son
+Person_262,PersonPerson0149,"Navon, Gio: Battista (I)","Navon, Pasqual (I)",Person_265,Parent,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"""
+Person_262,PersonPerson0150,"Navon, Gio: Battista (I)","Navon, Pasqual (I)",Person_265,Child,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"""
+Person_262,PersonPerson0151,"Navon, Gio: Battista (I)","Navon, Tommaso (I)",Person_267,Sibling,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"" - relationship is stated as ""older brother"""
+Person_262,PersonPerson0152,"Navon, Gio: Battista (I)","Navon, Tommaso (I)",Person_267,Child,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
+Person_265,PersonPerson0153,"Navon, Pasqual (I)","Coressi, Francesca",Person_113,Child,daughter
+Person_265,PersonPerson0154,"Navon, Pasqual (I)","Coressi, Nicolo",Person_114,Child,For review multiple Nicolo Niccolos: son-in-law
+Person_265,PersonPerson0155,"Navon, Pasqual (I)","Navon, Gio: Battista (I)",Person_262,Child,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"""
+Person_265,PersonPerson0156,"Navon, Pasqual (I)","Navon, Tommaso (I)",Person_267,Child,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
+Person_265,PersonPerson0157,"Navon, Pasqual (I)","Navone, Negron",Person_NAVONE,Parent,Father
+Person_266,PersonPerson0158,"Navon, Pasqual (II)","Coressi, Bartolomea",Person_112,Parent,mother
+Person_266,PersonPerson0159,"Navon, Pasqual (II)","Navon, Gio: Battista (I)",Person_262,Parent,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"""
+Person_266,PersonPerson0160,"Navon, Pasqual (II)","Navon, Tommaso (I)",Person_267,Sibling,"For review: Could have been mapped to Navon, Tommaso (II) - number not specified in original data. Form was ""Navon, Tomasso"""
+Person_267,PersonPerson0161,"Navon, Tommaso (I)","Navon, Gio: Battista (I)",Person_262,Indeterminate,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"". Relationship reads ""Younger Brother"" in original notes"
+Person_267,PersonPerson0162,"Navon, Tommaso (I)","Navon, Pasqual (I)",Person_265,Parent,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"""
+Person_268,PersonPerson0163,"Navon, Tommaso (II)","Navon, Gio: Battista (I)",Person_262,Indeterminate,"For review: Could have been mapped to Navon, Gio: Battista (II) - number not specified in original data. Form was ""Navon, Gio:Battista"" Other note reads: brother, dragoman grande, d. 1715"
+Person_268,PersonPerson0164,"Navon, Tommaso (II)","Navon, Gio: Battista (I)",Person_262,Parent,Father
+Person_268,PersonPerson0165,"Navon, Tommaso (II)","Navon, Pasqual (I)",Person_265,Indeterminate,"For review: Could have been mapped to Navon, Pasqua (II) - number not specified in original data. Form was ""Navon, Pasqual"" - relationship is ""=Pacha"" in original data"
+Person_268,PersonPerson0166,"Navon, Tommaso (II)","Testa, Susanna",Person_394,Spouse,wife
+Person_271,PersonPerson0167,"Nicolini, Pietro","Nicolini, Simon",Person_272,Parent,Father
+Person_272,PersonPerson0168,"Nicolini, Simon","Nicolich, Pietro",Person_NICOLICH,Parent,Father
+Person_273,PersonPerson0169,"Nores, Giacomo de","Nores, Pietro di",Person_274,Parent,father
+Person_273,PersonPerson0170,"Nores, Giacomo de","Podocataro, Livio",Person_294,Indeterminate,maternal grandfather
+Person_275,PersonPerson0171,"Olivieri, Antonio","Olivieri, Giovanni",Person_278,Parent,Father
+Person_278,PersonPerson0172,"Olivieri, Giovanni","Olivieri, Antonio",Person_275,Child,son
+Person_278,PersonPerson0173,"Olivieri, Giovanni","Olivieri, Caterina",Person_276,Sibling,sister
+Person_278,PersonPerson0174,"Olivieri, Giovanni","Olivieri, Domenico",Person_277,Indeterminate,? 1574 appointed dragoman of French ambassador - Pippidi 1980: 135
+Person_278,PersonPerson0175,"Olivieri, Giovanni","Olivieri, Olivier",Person_279,Indeterminate,1605: elected prior of Magnifica Comunita
+Person_282,PersonPerson0176,"Pace, Marco","Pace, Girolamo",Person_281,Parent,Father
+Person_285,PersonPerson0177,"Parada, Michiel","Parada, Ippolito",Person_284,Parent,For review: Question mark in original data
+Person_286,PersonPerson0178,"Perone, Giovanni","Piron, Antonio",Person_288,Sibling,brother
+Person_286,PersonPerson0179,"Perone, Giovanni","Piron, Domenico",Person_289,Sibling,brother
+Person_286,PersonPerson0180,"Perone, Giovanni","Piron, Nicolò",Person_290,Sibling,"brother, dragoman, died in service c. 1640"
+Person_286,PersonPerson0181,"Perone, Giovanni","Piron, Stefano",Person_STEFANOPIRON,Parent,Father
+Person_286,PersonPerson0182,"Perone, Giovanni","Pirona, Maria",Person_291,Parent,mother
+Person_312,PersonPerson0183,"Salvago, Gianesin (I)","Salvago, Mateca",Person_317,Child,son
+Person_313,PersonPerson0184,"Salvago, Gianesin (II)","Salvago, Benetto",Person_311,Sibling,brother
+Person_313,PersonPerson0185,"Salvago, Gianesin (II)","Salvago, Gio: Battista",Person_314,Sibling,young brother
+Person_313,PersonPerson0186,"Salvago, Gianesin (II)","Salvago, Giuliano",Person_316,Sibling,brother
+Person_313,PersonPerson0187,"Salvago, Gianesin (II)","Salvago, Mateca",Person_317,Parent,Father
+Person_314,PersonPerson0188,"Salvago, Gio: Battista","Bon, Andrea",Person_037,Indeterminate,cousin
+Person_314,PersonPerson0189,"Salvago, Gio: Battista","Salvago, Benetto",Person_311,Sibling,brother
+Person_314,PersonPerson0190,"Salvago, Gio: Battista","Salvago, Gianesin (I)",Person_312,Sibling,For review: Mapped to (I) could be (I) or (II) (unclear in data)
+Person_314,PersonPerson0191,"Salvago, Gio: Battista","Salvago, Gioia",Person_315,Indeterminate,"niece - see: Bertelè 1932: 149-150, 231: n9"
+Person_314,PersonPerson0192,"Salvago, Gio: Battista","Salvago, Giuliano",Person_316,Sibling,brother
+Person_314,PersonPerson0193,"Salvago, Gio: Battista","Salvago, Mateca",Person_317,Parent,Father
+Person_314,PersonPerson0194,"Salvago, Gio: Battista","Salvago, Sebastian",Person_318,Child,"possibly son - see: Bertele 149-150, 231: n8"
+Person_316,PersonPerson0195,"Salvago, Giuliano","Salvago, Gianesin (I)",Person_312,Sibling,For review: Mapped to (I) could be (I) or (II) (unclear in data)
+Person_316,PersonPerson0196,"Salvago, Giuliano","Salvago, Gio: Battista",Person_314,Sibling,brother
+Person_316,PersonPerson0197,"Salvago, Giuliano","Salvago, Mateca",Person_317,Parent,"For review: Data said Salvago, Matheca, mapped to Salvago, Mateca for now. Same person?"
+Person_317,PersonPerson0198,"Salvago, Mateca","Salvago, Gianesin (I)",Person_312,Child,For review: Mapped to (I) could be (I) or (II) (unclear in data)
+Person_317,PersonPerson0199,"Salvago, Mateca","Salvago, Gio: Battista",Person_314,Child,"Data said Salvago, Giovanni Battista. Mapped to Salvago, Gio: Battista"
+Person_317,PersonPerson0200,"Salvago, Mateca","Salvago, Giuliano",Person_316,Child,son
+Person_317,PersonPerson0201,"Salvago, Mateca","Salvego, Gianesin",Person_399,Parent,Father
+Person_320,PersonPerson0202,"Scaramelli, Francesco","Scaramelli, Giovanni Carlo",Person_398,Parent,Father
+Person_320,PersonPerson0203,"Scaramelli, Francesco","Scaramelli, Isabetta",Person_321,Parent,mother
+Person_322,PersonPerson0204,"Scassi, Marco di","Scassi, Bartolomeo di",Person_397,Parent,Father
+Person_329,PersonPerson0205,"Spinelli, Marchiò","Spinelli, Gasparo",Person_395,Parent,Father
+Person_333,PersonPerson0206,"Tarsia, Christoforo","Tarsia, Angela",Person_332,Child,daughter
+Person_333,PersonPerson0207,"Tarsia, Christoforo","Tarsia, Giacomo",Person_334,Child,son
+Person_333,PersonPerson0208,"Tarsia, Christoforo","Tarsia, Giustiniana",Person_336,Child,"daughter, wife of Marc'Antonio Mamuca della Torre"
+Person_333,PersonPerson0209,"Tarsia, Christoforo","Tarsia, Leonardo",Person_337,Child,son
+Person_333,PersonPerson0210,"Tarsia, Christoforo","Tarsia, Marco",Person_338,Sibling,brother
+Person_333,PersonPerson0211,"Tarsia, Christoforo","Tarsia, Ruggiero",Person_339,Sibling,brother
+Person_333,PersonPerson0212,"Tarsia, Christoforo","Tarsia, Tommaso",Person_342,Child,son
+Person_334,PersonPerson0213,"Tarsia, Giacomo","Mascellini, Laura",Person_236,Spouse,"wife, daughter of Gioia Scoccardi/Skovgaard and Giovanni Mascellini"
+Person_334,PersonPerson0214,"Tarsia, Giacomo","Tarsia, Christoforo",Person_333,Parent,Father
+Person_334,PersonPerson0215,"Tarsia, Giacomo","Tarsia, Leonardo",Person_337,Sibling,brother
+Person_334,PersonPerson0216,"Tarsia, Giacomo","Tarsia, Tomaso",Person_341,Sibling,brother
+Person_335,PersonPerson0217,"Tarsia, Gio: Domenico","Capello, Laura",Person_082,Spouse,wife
+Person_336,PersonPerson0218,"Tarsia, Giustiniana",Marc'Antonio Mamuca della Torre,Person_219,Spouse,Husband
+Person_337,PersonPerson0219,"Tarsia, Leonardo","Tarsia, Christoforo",Person_333,Parent,Father
+Person_337,PersonPerson0220,"Tarsia, Leonardo","Tarsia, Giacomo",Person_334,Sibling,brother
+Person_337,PersonPerson0221,"Tarsia, Leonardo","Tarsia, Tommaso",Person_342,Sibling,brother
+Person_338,PersonPerson0222,"Tarsia, Marco","Tarsia, Christoforo",Person_333,Sibling,brother
+Person_338,PersonPerson0223,"Tarsia, Marco","Tarsia, Rugier",Person_340,Sibling,brother
+Person_339,PersonPerson0224,"Tarsia, Ruggiero","Taria, Christoforo",Person_333,Sibling,brother
+Person_341,PersonPerson0225,"Tarsia, Tomaso","Rinaldo, Carli",Person_305,Indeterminate,cousin
+Person_341,PersonPerson0226,"Tarsia, Tomaso","Tarsia, Christoforo",Person_333,Parent,Father
+Person_341,PersonPerson0227,"Tarsia, Tomaso","Tarsia, Giacomo",Person_334,Sibling,brother
+Person_345,PersonPerson0228,"Torre, Antonio","Torre, Mattio ",Person_393,Sibling,brother
+Person_347,PersonPerson0229,"Tosi, Faustino","Tosi, Simone",Person_392,Parent,Father
+Person_358,PersonPerson0230,"Vecchia, Paolo","Grillo, Giovanni Antonio",Person_201,Indeterminate,wife's father
+Person_358,PersonPerson0231,"Vecchia, Paolo","Vecchia, Andrea",Person_355,Sibling,brother
+Person_358,PersonPerson0232,"Vecchia, Paolo","Vecchia, Cassandra",Person_356,Sibling,sister
+Person_358,PersonPerson0233,"Vecchia, Paolo","Vecchia, fra Paulo",Person_357,Indeterminate,nipote
+Person_358,PersonPerson0234,"Vecchia, Paolo","Vecchia, Gabriel",Person_391,Parent,Father
+Person_361,PersonPerson0235,"Velutello, Marco Antonio","Velutello, Piladi",Person_362,Sibling,brother
