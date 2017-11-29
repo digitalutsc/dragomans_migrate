@@ -47,6 +47,14 @@ source:
       agencies: agencies
     -
       related_objects: related_objects
+    -
+      notes: notes
+    -
+      related_people: related_people
+    -
+      related_document: related_document
+    -
+      genre: genre
 
   # We can assign hard-coded values to certain properties using constants.
   constants:
@@ -94,6 +102,40 @@ process:
       source: agencies
     -
       plugin: entity_generate
+  field_related_archival_object:
+    -
+      plugin: explode
+      delimiter: ', '
+      source: related_objects
+    -
+      plugin: entity_lookup
+      value_key: field_import_id
+      entity_type: node
+      bundle: archival_object
+      ignore_case: true
+  field_notes: notes
+  field_person_role_relation:
+    -
+      plugin: explode
+      delimiter: ', '
+      source: related_people
+    -
+      plugin: entity_lookup
+      value_key: title
+      entity_type: node
+      bundle: documentpersonrolerelation
+      ignore_case: true
+  field_person_role_relation:
+    -
+      plugin: explode
+      delimiter: ', '
+      source: genre
+    -
+      plugin: entity_lookup
+      value_key: title
+      entity_type: node
+      bundle: documentgenrerelation
+      ignore_case: true
   uid: constants/uid_root
 
 destination:

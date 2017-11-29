@@ -23,7 +23,7 @@ source:
     -
       doc_id: doc_id
     -
-      doc2people_id: doc2genre_id
+      doc2genre_id: doc2genre_id
     -
       genre: genre
     -

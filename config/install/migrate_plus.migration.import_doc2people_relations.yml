@@ -42,7 +42,7 @@ source:
 process:
   type:
     plugin: default_value
-    default_value: documentgenrerelation
+    default_value: documentpersonrolerelation
   title: doc2people_id
   field_document_person_role: role
   field_person:
