@@ -19,16 +19,18 @@ source:
   path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/doc2people_relations.csv
   header_row_count: 1
   keys:
-    - doc2genre_id
+    - doc2people_id
   column_names:
     -
       doc_id: doc_id
     -
-      doc2people_id: doc2genre_id
+      doc2people_id: doc2people_id
     -
-      genre: genre
+      person_display_name: person_display_name
     -
-      notes: notes
+      role: role
+    -
+      person_id: person_id
 
   # We can assign hard-coded values to certain properties using constants.
   constants:
@@ -43,7 +45,13 @@ process:
     default_value: documentgenrerelation
   title: doc2people_id
   field_document_person_role: role
-
+  field_person:
+    plugin: entity_lookup
+    value_key: field_import_id
+    entity_type: node
+    bundle: person
+    ignore_case: true
+    source: person_id
   uid: constants/uid_root
 
 destination:

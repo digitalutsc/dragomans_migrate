@@ -1,5 +1,6 @@
 term,notes
 appointment,"(start date for holding an office/position/title, ends with (A88:A91))"
+appraisal,
 audience,
 baptism,
 baptism of child,
@@ -16,16 +17,30 @@ departure from Istanbul,
 return from mission,
 dismissal,
 election,Use for: elezione; elezioni; elezione a bailo; ordine di eleggere un «gentiluomo inviato»; elezione ad ambasciatore; sometimes precedes appointment
+employment,Use for: employment start; employment end; hired
 instructions,Use for: istruzioni; istruzioni al bailo a Costantinopoli; istruzioni al bailo a Costantinopoli in proposito
 marriage,
 marriage of relative,
 "order to depart from Venice [to Istanbul, on a diplomatic mission]",Use for: ordine di partenza da Venezia
+petition,
 promotion,
 raise,
 report (oral),
-report (written),
+report (written),Use for: relazione
+reprimand,
 retirement,
 resignation,Use for: rinuncia alla carica
+salary,"includes stipend, pension, any regular payments made by gvt"
 audit,Use for: sindacato
 travel,(start-end)
 will,
+translation,production of a document-in-translation
+education,
+leave of absence,
+conversion,
+residence,
+litigation,
+citizenship,
+authorship,
+privileges,
+imprisonment,
