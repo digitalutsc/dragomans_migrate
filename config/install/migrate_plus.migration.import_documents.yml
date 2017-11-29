@@ -125,7 +125,7 @@ process:
       entity_type: node
       bundle: documentpersonrolerelation
       ignore_case: true
-  field_person_role_relation:
+  field_document_genre:
     -
       plugin: explode
       delimiter: ', '
@@ -136,6 +136,7 @@ process:
       entity_type: node
       bundle: documentgenrerelation
       ignore_case: true
+  field_import_id: document_id
   uid: constants/uid_root
 
 destination:
