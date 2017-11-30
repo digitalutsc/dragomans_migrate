@@ -26,9 +26,11 @@ source:
     -
       doc2people_id: doc2people_id
     -
-      genre: genre
+      person_display_name: person_display_name
     -
-      notes: notes
+      role: role
+    -
+      person_id: person_id
 
   # We can assign hard-coded values to certain properties using constants.
   constants:
@@ -40,10 +42,17 @@ source:
 process:
   type:
     plugin: default_value
-    default_value: documentgenrerelation
+    default_value: documentpersonrolerelation
   title: doc2people_id
   field_document_person_role: role
 
+  field_person:
+    plugin: entity_lookup
+    value_key: field_import_id
+    source: person_id
+    entity_type: node
+    bundle: person
+    ignore_case: true
   uid: constants/uid_root
 
 destination:

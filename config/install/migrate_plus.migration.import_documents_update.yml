@@ -32,6 +32,8 @@ source:
     -
       transcription: transcription
     -
+      transliteration: transliteration
+    -
       date: date
     -
       date_text: date_text

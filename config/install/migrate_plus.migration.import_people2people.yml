@@ -22,11 +22,19 @@ source:
     - p2p_id
   column_names:
     -
+      person_id: person_id
+    -
       p2p_id: p2p_id
+    -
+      person_name: person_name
+    -
+      related_person_name: related_person_name
+    -
+      related_person_id: related_person_id
     -
       role: role
     -
-      person: person
+      notes: notes
   # We can assign hard-coded values to certain properties using constants.
   constants:
     bool_0: 0
@@ -45,10 +53,11 @@ process:
   field_person:
     plugin: entity_lookup
     value_key: field_import_id
-    source: person
+    source: related_person_id
     entity_type: node
     bundle: person
     ignore_case: true
+  field_notes: notes
   uid: constants/uid_root
 
 destination:
