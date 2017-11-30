@@ -49,7 +49,7 @@ process:
       source: person
     -
       plugin: entity_lookup
-      value_key: field_person_id
+      value_key: import_id
       entity_type: node
       bundle: person
       ignore_case: true
