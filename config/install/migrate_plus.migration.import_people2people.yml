@@ -43,16 +43,12 @@ process:
     plugin: entity_generate
     source: role
   field_person:
-    -
-      plugin: explode
-      delimiter: ', '
-      source: person
-    -
-      plugin: entity_lookup
-      value_key: import_id
-      entity_type: node
-      bundle: person
-      ignore_case: true
+    plugin: entity_lookup
+    value_key: field_import_id
+    source: person
+    entity_type: node
+    bundle: person
+    ignore_case: true
   uid: constants/uid_root
 
 destination:
