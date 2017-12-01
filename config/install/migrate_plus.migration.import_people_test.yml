@@ -1,12 +1,11 @@
-uuid: bdce1995-f3ba-4805-b71f-63c17c046258
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - dragomans_migrate
-id: import_people
-label: 'Import People'
+id: import_people_test
+label: 'Import People Test'
 migration_group: dragomans_data
 
 class: null
