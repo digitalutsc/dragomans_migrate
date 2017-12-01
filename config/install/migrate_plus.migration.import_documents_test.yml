@@ -4,8 +4,8 @@ dependencies:
   enforced:
     module:
       - dragomans_migrate
-id: import_documents
-label: 'Import Documents'
+id: import_documents_test
+label: 'Import Documents Test'
 migration_group: dragomans_data
 
 class: null
@@ -15,7 +15,7 @@ migration_tags:
   - CSV
 source:
   plugin: csv
-  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/documents.csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/documents_test.csv
   header_row_count: 1
   keys:
     - document_id

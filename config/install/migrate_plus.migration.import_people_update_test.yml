@@ -1,12 +1,11 @@
-uuid: e2fc8cc4-43f2-480b-b57b-39ca0a2644fe
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - dragomans_migrate
-id: import_documents_update
-label: 'Import Documents (Doc2Doc) Update'
+id: import_people_update_test
+label: 'Import People Update Test'
 migration_group: dragomans_data
 
 class: null
@@ -16,45 +15,43 @@ migration_tags:
   - CSV
 source:
   plugin: csv
-  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/documents.csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/people_test.csv
   header_row_count: 1
   keys:
-    - document_id
+    - person_id
   column_names:
     -
-      document_id: document_id
+      person_id: person_id
     -
       title: title
     -
+      given_name: given_name
+    -
+      family_name: family_name
+    -
+      name_parts: name_parts
+    -
+      alt_family_names: alt_family_names
+    -
+      alt_given_names: alt_given_names
+    -
+      alt_name_parts: alt_name_parts
+    -
+      professions: professions
+    -
+      gender: gender
+    -
+      nations: nations
+    -
       languages: languages
     -
-      english_summary: english_summary
+      positions: positions
     -
-      transcription: transcription
-    -
-      transliteration: transliteration
-    -
-      date: date
-    -
-      date_text: date_text
-    -
-      date_type: date_type
-    -
-      places: places
-    -
-      topics: topics
-    -
-      agencies: agencies
-    -
-      related_objects: related_objects
-    -
-      notes: notes
+      events: events
     -
       related_people: related_people
     -
-      related_document: related_document
-    -
-      genre: genre
+      notes: notes
 
   # We can assign hard-coded values to certain properties using constants.
   constants:
@@ -66,19 +63,22 @@ source:
 process:
   type:
     plugin: default_value
-    default_value: document
+    default_value: person
   title: title
-  field_related_document:
+  field_p2p_role_relation:
     -
       plugin: explode
       delimiter: ', '
-      source: related_document
+      source: related_people
     -
       plugin: entity_lookup
       value_key: title
       entity_type: node
-      bundle: documentdocumentrelation
+      bundle: persontopersonrelation
       ignore_case: true
+  field_notes: notes
+
+
   uid: constants/uid_root
 
 destination:

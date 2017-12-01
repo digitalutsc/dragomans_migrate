@@ -1,0 +1,3 @@
+person_id,title,given_name,family_name,name_parts,alt_family_names,alt_given_names,alt_name_parts,professions,gender,nations,languages,positions,events,related_people,notes
+Person_001,"Test3 Agapito, Gabriel",Agapito,Gabriel,,Agapito;Aggapito;Agappito,Gabriele,,Dragoman,Male,Cipriota,Greek,Position001,"Event0001, Event0002, Event0003",PersonPerson0001,
+Person_003,"Test4 Aggiondrite, Andrea",Aggiondrite,Andrea,,Agiondrite;Agiondriti;Aggiondriti;Agiondritti;Agiondritte;Aggiondritti,,,Dragoman,Male,Greca,Greek,Position002,"Event0004, Event0005, Event0006, Event0007",PersonPerson0002,

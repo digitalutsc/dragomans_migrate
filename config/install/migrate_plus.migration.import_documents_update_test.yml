@@ -5,8 +5,8 @@ dependencies:
   enforced:
     module:
       - dragomans_migrate
-id: import_documents_update
-label: 'Import Documents (Doc2Doc) Update'
+id: import_documents_update_test
+label: 'Import Documents (Doc2Doc) Update Test'
 migration_group: dragomans_data
 
 class: null
@@ -16,7 +16,7 @@ migration_tags:
   - CSV
 source:
   plugin: csv
-  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/documents.csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/documents_test.csv
   header_row_count: 1
   keys:
     - document_id
