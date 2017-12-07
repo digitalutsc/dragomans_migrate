@@ -15,7 +15,7 @@ migration_tags:
   - CSV
 source:
   plugin: csv
-  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/documents_test.csv
+  path: /var/www/html/drupal/web/modules/contrib/dragomans_migrate/data/documents.csv
   header_row_count: 1
   keys:
     - document_id
@@ -24,6 +24,8 @@ source:
       document_id: document_id
     -
       title: title
+    -
+      page: page
     -
       languages: languages
     -
@@ -70,6 +72,7 @@ process:
   field_english_summary: english_summary
   field_transcription: transcription
   field_transliteration: transliteration
+  field_page: page
   field_language:
     -
       plugin: explode
@@ -143,4 +146,3 @@ destination:
 migration_dependencies:
   required: {  }
   optional: {  }
-

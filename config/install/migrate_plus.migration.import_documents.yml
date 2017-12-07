@@ -25,6 +25,8 @@ source:
     -
       title: title
     -
+      page: page
+    -
       languages: languages
     -
       english_summary: english_summary
@@ -70,6 +72,7 @@ process:
   field_english_summary: english_summary
   field_transcription: transcription
   field_transliteration: transliteration
+  field_page: page
   field_language:
     -
       plugin: explode
