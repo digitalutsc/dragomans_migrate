@@ -69,79 +69,17 @@ process:
   type:
     plugin: default_value
     default_value: document
-  title: title
-  field_english_summary: english_summary
-  field_transcription: transcription
-  field_transliteration: transliteration
-  field_page: page
-  field_language:
+  field_related_document:
     -
       plugin: explode
       delimiter: ', '
-      source: languages
-    -
-      plugin: entity_generate
-  field_date: date
-  field_production_date: date_text
-  field_production_date_type: date_type
-  field_subject_places:
-    -
-      plugin: explode
-      delimiter: ';'
-      source: places
-    -
-      plugin: entity_generate
-  field_topic:
-    -
-      plugin: explode
-      delimiter: ';'
-      source: topics
-    -
-      plugin: entity_generate
-  field_subject_agencies:
-    -
-      plugin: explode
-      delimiter: ';'
-      source: agencies
-    -
-      plugin: entity_generate
-  field_related_archival_object:
-    -
-      plugin: explode
-      delimiter: ', '
-      source: related_objects
-    -
-      plugin: entity_lookup
-      value_key: field_import_id
-      entity_type: node
-      bundle: archival_object
-      ignore_case: true
-  field_notes: notes
-  field_person_role_relation:
-    -
-      plugin: explode
-      delimiter: ', '
-      source: related_people
+      source: related_document
     -
       plugin: entity_lookup
       value_key: title
       entity_type: node
-      bundle: documentpersonrolerelation
+      bundle: documentdocumentrelation
       ignore_case: true
-  field_document_genre:
-    -
-      plugin: explode
-      delimiter: ', '
-      source: genre
-    -
-      plugin: entity_lookup
-      value_key: title
-      entity_type: node
-      bundle: documentgenrerelation
-      ignore_case: true
-  field_import_id: document_id
-  uid: constants/uid_root
-
 destination:
   plugin: 'entity:node'
 migration_dependencies:
